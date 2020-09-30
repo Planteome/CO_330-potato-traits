@@ -657,7 +657,7 @@ id: CO_330:0000096
 name: potato distribution of secondary tuber flesh color trait
 def: "The distribution of the secondary tuber flesh color" [CO:curators]
 synonym: "FlsCSD" EXACT []
-is_a: TO:0000742
+is_a: TO:0000742 ! subterranean shoot axis tuber morphology trait
 
 [Term]
 id: CO_330:0000097
@@ -1148,7 +1148,7 @@ relationship: scale_of CO_330:0000175 ! tuber texture after cooking - method
 id: CO_330:0000177
 name: potato chips oil absorption rate trait
 def: "The oil absorption rate of the chips" [CO:curators]
-is_a: TO:0001071
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000178
@@ -1234,7 +1234,7 @@ relationship: scale_of CO_330:0000187 ! flesh color after cooking - method
 id: CO_330:0000189
 name: potato chips color trait
 def: "The color of the chips" [CO:curators]
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000190
@@ -1253,7 +1253,7 @@ relationship: scale_of CO_330:0000190 ! chips color - method
 id: CO_330:0000192
 name: potato tuber dry matter content trait
 def: "The dry matter content of the tuber" [CO:curators]
-is_a: TO:0000457
+is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_330:0000193
@@ -1349,7 +1349,7 @@ relationship: scale_of CO_330:0000526 ! spectrophotometry - sulfur dry weight
 id: CO_330:0000204
 name: potato tuber zinc concentration in dry weight basis trait
 def: "The concentration of zinc in dry weight basis" [CO:curators]
-is_a: TO:1000073
+is_a: TO:1000073 ! shoot system zinc content
 
 [Term]
 id: CO_330:0000205
@@ -2738,7 +2738,7 @@ is_a: CO_330:0000189 ! chips color
 id: CO_330:0000385
 name: potato french fries color trait
 def: "The color of the french fries" [CO:curators]
-is_a: TO:0001070
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_330:0000386
@@ -2784,7 +2784,7 @@ is_a: CO_330:0000192 ! tuber dry matter content
 id: CO_330:0000391
 name: potato tuber specific gravity trait
 def: "The specific gravity of the tuber" [CO:curators]
-is_a: TO:0000458
+is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_330:0000392
@@ -2934,7 +2934,7 @@ is_a: CO_330:0000204 ! tuber zinc concentration in dry weight basis
 id: CO_330:0000410
 name: potato tuber zinc concentration in fresh weight basis trait
 def: "The concentration of zinc in fresh weight basis" [CO:curators]
-is_a: TO:1000075
+is_a: TO:1000073 ! shoot system zinc content
 
 [Term]
 id: CO_330:0000411

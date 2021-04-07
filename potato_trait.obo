@@ -1,10 +1,10 @@
 format-version: 1.2
-date: 12:02:2018 19:35
-default-namespace: PotatoDefault
+date: 07:04:2020 19:35
+default-namespace: PotatoTrait
 ontology: co_330
 
 [Term]
-id: CO_331:0000000
+id: CO_331:1000000
 name: CGIAR Potato trait ontology
 namespace: PotatoTrait
 def: "A controlled vocabulary to describe each trait as a distinguishable, characteristic, quality or phenotypic feature of a developing or mature potato plant." []
@@ -2190,7 +2190,6 @@ relationship: scale_of CO_330:0000335 ! average of marketable tuber weight - met
 id: CO_330:0000223
 name: PlGwht_Et_1to6
 namespace: PotatoTrait
-def: "" []
 synonym: "PlGwht_Et_1to6" EXACT []
 synonym: "HABIT" EXACT []
 synonym: " PGH" EXACT []
@@ -2203,7 +2202,6 @@ relationship: variable_of CO_330:0000002 ! PlGwht 6 pt. scale
 id: CO_330:0000224
 name: Flwdgr_Et_0to7
 namespace: PotatoTrait
-def: "" []
 synonym: "Flwdgr_Et_0to7" EXACT []
 synonym: "FLOWERING" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2215,7 +2213,6 @@ relationship: variable_of CO_330:0000005 ! Flwdgr 5 pt. scale
 id: CO_330:0000225
 name: CorSh_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "CorSh_Et_1to9" EXACT []
 synonym: "CORSHAP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2227,7 +2224,6 @@ relationship: variable_of CO_330:0000008 ! CorSh 5 pt. scale
 id: CO_330:0000226
 name: FlwNIn_Et_0to7
 namespace: PotatoTrait
-def: "" []
 synonym: "FlwNIn_Et_0to7" EXACT []
 synonym: "NIPP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2239,7 +2235,6 @@ relationship: variable_of CO_330:0000011 ! FlwNIn 5 pt. scale
 id: CO_330:0000227
 name: FlwNum_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "FlwNum_Et_1to9" EXACT []
 synonym: "NFWP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2251,7 +2246,6 @@ relationship: variable_of CO_330:0000014 ! FlwNum 6 pt. scale
 id: CO_330:0000228
 name: FlrAnP_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "FlrAnP_Et_1to9" EXACT []
 synonym: "ANTPIG" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2263,7 +2257,6 @@ relationship: variable_of CO_330:0000017 ! FlrAnP 5 pt. scale
 id: CO_330:0000229
 name: FlrPPg_Et_0to8
 namespace: PotatoTrait
-def: "" []
 synonym: "FlrPPg_Et_0to8" EXACT []
 synonym: "PISP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2275,7 +2268,6 @@ relationship: variable_of CO_330:0000020 ! FlrPPg 9 pt. scale
 id: CO_330:0000230
 name: FrtShp_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "FrtShp_Et_1to7" EXACT []
 synonym: "FRUTSHP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2287,7 +2279,6 @@ relationship: variable_of CO_330:0000023 ! FrtShp 7 pt. scale
 id: CO_330:0000231
 name: FrtCol_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "FrtCol_Et_1to7" EXACT []
 synonym: "FRUIT" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2299,7 +2290,6 @@ relationship: variable_of CO_330:0000026 ! FrtCol 7 pt. scale
 id: CO_330:0000232
 name: Pedcol_Et_1to8
 namespace: PotatoTrait
-def: "" []
 synonym: "Pedcol_Et_1to8" EXACT []
 synonym: "PEDPIG" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2311,7 +2301,6 @@ relationship: variable_of CO_330:0000029 ! Pedcol 8 pt. scale
 id: CO_330:0000233
 name: Calcol_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "Calcol_Et_1to7" EXACT []
 synonym: "CALPIG" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2323,7 +2312,6 @@ relationship: variable_of CO_330:0000032 ! Calcol 7 pt. scale
 id: CO_330:0000234
 name: SedPro_Et_0to5
 namespace: PotatoTrait
-def: "" []
 synonym: "SedPro_Et_0to5" EXACT []
 synonym: "SPBE" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2335,7 +2323,6 @@ relationship: variable_of CO_330:0000035 ! SedPro 6 pt. scale
 id: CO_330:0000235
 name: FlrShp_Et_1to5
 namespace: PotatoTrait
-def: "" []
 synonym: "FlrShp_Et_1to5" EXACT []
 synonym: "STSHAPE" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2347,7 +2334,6 @@ relationship: variable_of CO_330:0000038 ! FlrShp 3 pt. scale
 id: CO_330:0000236
 name: LefShp_Et_1to3
 namespace: PotatoTrait
-def: "" []
 synonym: "LefShp_Et_1to3" EXACT []
 synonym: "LEATY" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2359,7 +2345,6 @@ relationship: variable_of CO_330:0000041 ! LefShp 3 pt. scale
 id: CO_330:0000237
 name: LaLfN_Et_0to8
 namespace: PotatoTrait
-def: "" []
 synonym: "LaLfN_Et_0to8" EXACT []
 synonym: "NPLL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2371,7 +2356,6 @@ relationship: variable_of CO_330:0000044 ! LaLfN 9 pt. scale
 id: CO_330:0000238
 name: AdLfC_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "AdLfC_Et_1to9" EXACT []
 synonym: "CADSL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2383,7 +2367,6 @@ relationship: variable_of CO_330:0000047 ! AdLfC 5 pt. scale
 id: CO_330:0000239
 name: AbLfC_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "AbLfC_Et_1to9" EXACT []
 synonym: "CABSL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2395,7 +2378,6 @@ relationship: variable_of CO_330:0000050 ! AbLfC 5 pt. scale
 id: CO_330:0000240
 name: AdLfTd_Et_0to3
 namespace: PotatoTrait
-def: "" []
 synonym: "AdLfTd_Et_0to3" EXACT []
 synonym: "TDLAS" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2407,7 +2389,6 @@ relationship: variable_of CO_330:0000053 ! AdLfTd 4 pt. scale
 id: CO_330:0000241
 name: AbLfTd_Et_0to3
 namespace: PotatoTrait
-def: "" []
 synonym: "AbLfTd_Et_0to3" EXACT []
 synonym: "TDLAS2" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2419,7 +2400,6 @@ relationship: variable_of CO_330:0000056 ! AbLfTd 4 pt. scale
 id: CO_330:0000242
 name: ApLfSz_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "ApLfSz_Et_1to7" EXACT []
 synonym: "APLSI" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2431,7 +2411,6 @@ relationship: variable_of CO_330:0000059 ! ApLfSz 4 pt. scale
 id: CO_330:0000243
 name: ApLfSh_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "ApLfSh_Et_1to7" EXACT []
 synonym: "APLSH" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2443,7 +2422,6 @@ relationship: variable_of CO_330:0000062 ! ApLfSh 7 pt. scale
 id: CO_330:0000244
 name: LaLfSh_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "LaLfSh_Et_1to7" EXACT []
 synonym: "LALESH" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2455,7 +2433,6 @@ relationship: variable_of CO_330:0000065 ! LaLfSh 7 pt. scale
 id: CO_330:0000245
 name: BShTLf_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "BShTLf_Et_1to7" EXACT []
 synonym: "BSHTL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2467,7 +2444,6 @@ relationship: variable_of CO_330:0000068 ! BShTLf 7 pt. scale
 id: CO_330:0000246
 name: AShTLf_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "AShTLf_Et_1to9" EXACT []
 synonym: "ASHTL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2479,7 +2455,6 @@ relationship: variable_of CO_330:0000071 ! AShTLf 5 pt. scale
 id: CO_330:0000247
 name: MStPg_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "MStPg_Et_1to7" EXACT []
 synonym: "STMPG" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2491,7 +2466,6 @@ relationship: variable_of CO_330:0000074 ! MStPg 7 pt. scale
 id: CO_330:0000248
 name: StWgSh_Et_0to3
 namespace: PotatoTrait
-def: "" []
 synonym: "StWgSh_Et_0to3" EXACT []
 synonym: "STMWNG" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2503,7 +2477,6 @@ relationship: variable_of CO_330:0000077 ! StWgSh 3 pt. scale
 id: CO_330:0000249
 name: PSknCol_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "PSknCol_Et_1to9" EXACT []
 synonym: "TBSKN1" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2515,7 +2488,6 @@ relationship: variable_of CO_330:0000080 ! PrdSknCol 9 pt. scale
 id: CO_330:0000250
 name: SknCPI_Et_1to3
 namespace: PotatoTrait
-def: "" []
 synonym: "SknCPI_Et_1to3" EXACT []
 synonym: "TBSKN2" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2527,7 +2499,6 @@ relationship: variable_of CO_330:0000083 ! SknCPI 3 pt. Scale
 id: CO_330:0000251
 name: SknCSc_Et_0to9
 namespace: PotatoTrait
-def: "" []
 synonym: "SknCSc_Et_0to9" EXACT []
 synonym: "TBSKN3" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2539,7 +2510,6 @@ relationship: variable_of CO_330:0000086 ! SknCSc 10 pt. Scale
 id: CO_330:0000252
 name: SknCScD_Et_0to7
 namespace: PotatoTrait
-def: "" []
 synonym: "SknCScD_Et_0to7" EXACT []
 synonym: "TBSKN4" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2551,7 +2521,6 @@ relationship: variable_of CO_330:0000089 ! SknCScD 8 pt. Scale
 id: CO_330:0000253
 name: PFlshCol_Et_1to8
 namespace: PotatoTrait
-def: "" []
 synonym: "PFlshCol_Et_1to8" EXACT []
 synonym: "TBFSH1" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2563,7 +2532,6 @@ relationship: variable_of CO_330:0000092 ! PrdFlshCol 8 pt. scale
 id: CO_330:0000254
 name: FlsCSc_Et_0to8
 namespace: PotatoTrait
-def: "" []
 synonym: "FlsCSc_Et_0to8" EXACT []
 synonym: "TBFSH2" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2575,7 +2543,6 @@ relationship: variable_of CO_330:0000095 ! FlsCSc 9 pt. Scale
 id: CO_330:0000255
 name: FlsCSD_Et_0to7
 namespace: PotatoTrait
-def: "" []
 synonym: "FlsCSD_Et_0to7" EXACT []
 synonym: "TBFSH3" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2587,7 +2554,6 @@ relationship: variable_of CO_330:0000098 ! FlsCSD 8 pt. Scale
 id: CO_330:0000256
 name: RtShp_Et_1to8
 namespace: PotatoTrait
-def: "" []
 synonym: "RtShp_Et_1to8" EXACT []
 synonym: "TBSHP1" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2599,7 +2565,6 @@ relationship: variable_of CO_330:0000101 ! TbShp 8 pt. Scale
 id: CO_330:0000257
 name: RtShp_Et_0to9
 namespace: PotatoTrait
-def: "" []
 synonym: "RtShp_Et_0to9" EXACT []
 synonym: "TBSHP2" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2611,7 +2576,6 @@ relationship: variable_of CO_330:0000104 ! UTbShp 9 pt. Scale
 id: CO_330:0000258
 name: DpEyTb_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "DpEyTb_Et_1to9" EXACT []
 synonym: "TBSHP3" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2623,7 +2587,6 @@ relationship: variable_of CO_330:0000107 ! DpEyTb 5 pt. scale
 id: CO_330:0000259
 name: PSpCol_Et_1to5
 namespace: PotatoTrait
-def: "" []
 synonym: "PSpCol_Et_1to5" EXACT []
 synonym: "SPROUT1" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2635,7 +2598,6 @@ relationship: variable_of CO_330:0000113 ! PSpCol 5 pt. scale
 id: CO_330:0000260
 name: SpScCol_Et_0to5
 namespace: PotatoTrait
-def: "" []
 synonym: "SpScCol_Et_0to5" EXACT []
 synonym: "SPROUT2" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2647,7 +2609,6 @@ relationship: variable_of CO_330:0000116 ! SpScCol 6 pt. scale
 id: CO_330:0000261
 name: SpCSD_Et_0to7
 namespace: PotatoTrait
-def: "" []
 synonym: "SpCSD_Et_0to7" EXACT []
 synonym: "SPROUT3" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2659,7 +2620,6 @@ relationship: variable_of CO_330:0000119 ! SpCSD 7pt. scale
 id: CO_330:0000262
 name: Pldy 5_Et_1to5
 namespace: PotatoTrait
-def: "" []
 synonym: "Pldy 5_Et_1to5" EXACT []
 synonym: "PLOIDY" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2687,7 +2647,6 @@ relationship: method_of CO_330:0000263 ! number of tubers planted
 id: CO_330:0000265
 name: NTbPl_Ct_plplot
 namespace: PotatoTrait
-def: "" []
 synonym: "NTbPl_Ct_plplot" EXACT []
 synonym: "NTP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2715,7 +2674,6 @@ relationship: method_of CO_330:0000266 ! number of emerged plants
 id: CO_330:0000268
 name: NTbEg_Ct_plplot
 namespace: PotatoTrait
-def: "" []
 synonym: "NTbEg_Ct_plplot" EXACT []
 synonym: "NPE" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2750,7 +2708,6 @@ relationship: scale_of CO_330:0000270 ! visual estimation plant uniformity - met
 id: CO_330:0000272
 name: PlUnif_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "PlUnif_Et_1to9" EXACT []
 synonym: "Plant_Unif" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2793,7 +2750,6 @@ relationship: scale_of CO_330:0000274 ! visual estimation - plant vigor method
 id: CO_330:0000276
 name: PlVig_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "PlVig_Et_1to9" EXACT []
 synonym: "Plant_Vigor" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2836,7 +2792,6 @@ relationship: scale_of CO_330:0000278 ! visual estimation senescence - method
 id: CO_330:0000280
 name: Sen_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "Sen_Et_1to9" EXACT []
 synonym: "SE" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2864,7 +2819,6 @@ relationship: method_of CO_330:0000281 ! plant emergence proportion
 id: CO_330:0000283
 name: PPlEg_Cp_per
 namespace: PotatoTrait
-def: "" []
 synonym: "PPlEg_Cp_per" EXACT []
 synonym: "PPE" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2899,7 +2853,6 @@ relationship: scale_of CO_330:0000285 ! number of harvested plants - method
 id: CO_330:0000287
 name: PltHrv_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "PltHrv_Ct_plot" EXACT []
 synonym: "NPH" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2927,7 +2880,6 @@ relationship: method_of CO_330:0000288 ! proportion of plants harvested
 id: CO_330:0000290
 name: PPlHv_Cp_per
 namespace: PotatoTrait
-def: "" []
 synonym: "PPlHv_Cp_per" EXACT []
 synonym: "PPH" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2955,7 +2907,6 @@ relationship: method_of CO_330:0000291 ! number?of?marketable tubers
 id: CO_330:0000293
 name: NMTb_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "NMTb_Ct_plot" EXACT []
 synonym: "NMTP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2990,7 +2941,6 @@ relationship: scale_of CO_330:0000295 ! number?of?marketable tubers per plant - 
 id: CO_330:0000297
 name: NMTb_Ct_plant
 namespace: PotatoTrait
-def: "" []
 synonym: "NMTb_Ct_plant" EXACT []
 synonym: "NMTPL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3018,7 +2968,6 @@ relationship: method_of CO_330:0000298 ! non-marketable tuber number
 id: CO_330:0000300
 name: NNoMTb_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "NNoMTb_Ct_plot" EXACT []
 synonym: "NNoMTP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3053,7 +3002,6 @@ relationship: scale_of CO_330:0000302 ! tuber number - method
 id: CO_330:0000304
 name: TubN_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "TubN_Ct_plot" EXACT []
 synonym: "TNTP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3065,7 +3013,6 @@ relationship: variable_of CO_330:0000303 ! tuber/ plot
 id: CO_330:0000305
 name: TubN_Ct_plant
 namespace: PotatoTrait
-def: "" []
 synonym: "TubN_Ct_plant" EXACT []
 synonym: "TNTPL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3093,7 +3040,6 @@ relationship: method_of CO_330:0000306 ! marketable tuber weight
 id: CO_330:0000308
 name: MTbWg_Ms_kgplot
 namespace: PotatoTrait
-def: "" []
 synonym: "MTbWg_Ms_kgplot" EXACT []
 synonym: "MTWP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3121,7 +3067,6 @@ relationship: method_of CO_330:0000309 ! marketable tuber weight per plant
 id: CO_330:0000311
 name: MTbWg_Ms_kgplant
 namespace: PotatoTrait
-def: "" []
 synonym: "MTbWg_Ms_kgplant" EXACT []
 synonym: "MTWPL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3149,7 +3094,6 @@ relationship: method_of CO_330:0000312 ! non-marketable tuber weight
 id: CO_330:0000314
 name: NoMTWg_Ms_kgplot
 namespace: PotatoTrait
-def: "" []
 synonym: "NoMTWg_Ms_kgplot" EXACT []
 synonym: "NoMTWP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3185,7 +3129,6 @@ relationship: method_of CO_330:0000315 ! tuber weight
 id: CO_330:0000317
 name: TubWg_Cp_kgplot
 namespace: PotatoTrait
-def: "" []
 synonym: "TubWg_Cp_kgplot" EXACT []
 synonym: "TTWP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3220,7 +3163,6 @@ relationship: scale_of CO_330:0000319 ! tuber weight per plant - method
 id: CO_330:0000321
 name: TubWg_Cp_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "TubWg_Cp_plot" EXACT []
 synonym: "TTWPL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3240,7 +3182,6 @@ relationship: method_of CO_330:0000144 ! tuber yield no adjusted
 id: CO_330:0000323
 name: TbYldAj_Cp_tha
 namespace: PotatoTrait
-def: "" []
 synonym: "TbYldAj_Cp_tha" EXACT []
 synonym: "TTYA" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3252,7 +3193,6 @@ relationship: variable_of CO_330:0000221 ! t/ha
 id: CO_330:0000324
 name: TbYldNAj_Cp_tha
 namespace: PotatoTrait
-def: "" []
 synonym: "TbYldNAj_Cp_tha" EXACT []
 synonym: "TTYNA" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3280,7 +3220,6 @@ relationship: method_of CO_330:0000325 ! marketable tuber yield adjusted
 id: CO_330:0000327
 name: MkbYldAj_Cp_tha
 namespace: PotatoTrait
-def: "" []
 synonym: "MkbYldAj_Cp_tha" EXACT []
 synonym: "MTYA" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3308,7 +3247,6 @@ relationship: method_of CO_330:0000328 ! marketable tuber yield no adjusted
 id: CO_330:0000330
 name: MkYldNAj_Cp_tha
 namespace: PotatoTrait
-def: "" []
 synonym: "MkYldNAj_Cp_tha" EXACT []
 synonym: "MTYNA" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3336,7 +3274,6 @@ relationship: method_of CO_330:0000331 ! average of tuber weight
 id: CO_330:0000333
 name: AvTbWg_Cp_g
 namespace: PotatoTrait
-def: "" []
 synonym: "AvTbWg_Cp_g" EXACT []
 synonym: "ATW or MWT" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3364,7 +3301,6 @@ relationship: method_of CO_330:0000334 ! average of marketable tuber weight
 id: CO_330:0000336
 name: AvTrWg_Cp_g
 namespace: PotatoTrait
-def: "" []
 synonym: "AvTrWg_Cp_g" EXACT []
 synonym: "ATMW or MWMT" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3399,7 +3335,6 @@ relationship: scale_of CO_330:0000338 ! number of stolons - method
 id: CO_330:0000340
 name: NumStn_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "NumStn_Et_1to9" EXACT []
 synonym: "Num_Stolon" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3442,7 +3377,6 @@ relationship: scale_of CO_330:0000342 ! length of stolons - method
 id: CO_330:0000344
 name: LgStn_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "LgStn_Et_1to9" EXACT []
 synonym: "Leng_Stolon" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3477,7 +3411,6 @@ relationship: scale_of CO_330:0000346 ! tuber appearance - method
 id: CO_330:0000348
 name: TubApp_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "TubApp_Et_1to9" EXACT []
 synonym: "Tuber_Apper" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3512,7 +3445,6 @@ relationship: scale_of CO_330:0000350 ! tuber uniformity  - method
 id: CO_330:0000352
 name: TubUni_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "TubUni_Et_1to9" EXACT []
 synonym: "Tub_Unif" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3555,7 +3487,6 @@ relationship: scale_of CO_330:0000354 ! tuber size - method
 id: CO_330:0000356
 name: TubSiz_Et_1to9
 namespace: PotatoTrait
-def: "" []
 synonym: "TubSiz_Et_1to9" EXACT []
 synonym: "Tub_Size" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3583,7 +3514,6 @@ relationship: method_of CO_330:0000357 ! late blight severity
 id: CO_330:0000359
 name: LBSv_Et_pct
 namespace: PotatoTrait
-def: "" []
 synonym: "LBSv_Et_pct" EXACT []
 synonym: "LB" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3618,7 +3548,6 @@ relationship: scale_of CO_330:0000361 ! late blight audpc - method
 id: CO_330:0000363
 name: LB_AUDPC_Cp
 namespace: PotatoTrait
-def: "" []
 synonym: "LB_AUDPC_Cp" EXACT []
 synonym: "AUDPC" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3653,7 +3582,6 @@ relationship: scale_of CO_330:0000365 ! late blight relative audpc - method
 id: CO_330:0000367
 name: LB_rAUDPC_Cp
 namespace: PotatoTrait
-def: "" []
 synonym: "LB_rAUDPC_Cp" EXACT []
 synonym: "rAUDPC" EXACT []
 synonym: " RAUDPC" EXACT []
@@ -3689,7 +3617,6 @@ relationship: scale_of CO_330:0000369 ! late blight susceptibility - method
 id: CO_330:0000371
 name: LB_SAUDPC_Cp
 namespace: PotatoTrait
-def: "" []
 synonym: "LB_SAUDPC_Cp" EXACT []
 synonym: "SAUDPC" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3701,7 +3628,6 @@ relationship: variable_of CO_330:0000370 ! No scale name found
 id: CO_330:0000372
 name: RLb_Et_1to6
 namespace: PotatoTrait
-def: "" []
 synonym: "RLb_Et_1to6" EXACT []
 synonym: "LB" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3713,7 +3639,6 @@ relationship: variable_of CO_330:0000125 ! SES 7 pt scale
 id: CO_330:0000373
 name: RPvx_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "RPvx_Et_1to7" EXACT []
 synonym: "PVX" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3725,7 +3650,6 @@ relationship: variable_of CO_330:0000128 ! SES 7 pt scale
 id: CO_330:0000374
 name: RPvy_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "RPvy_Et_1to7" EXACT []
 synonym: "PVY" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3737,7 +3661,6 @@ relationship: variable_of CO_330:0000131 ! SES 7 pt scale
 id: CO_330:0000375
 name: RPrlv_Et_1to6
 namespace: PotatoTrait
-def: "" []
 synonym: "RPrlv_Et_1to6" EXACT []
 synonym: "PRLV" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3749,7 +3672,6 @@ relationship: variable_of CO_330:0000134 ! SES 5 pt scale
 id: CO_330:0000376
 name: RBw_Et_1to6
 namespace: PotatoTrait
-def: "" []
 synonym: "RBw_Et_1to6" EXACT []
 synonym: "BW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3761,7 +3683,6 @@ relationship: variable_of CO_330:0000137 ! SES 5 pt scale
 id: CO_330:0000377
 name: RRkn_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "RRkn_Et_1to7" EXACT []
 synonym: "RKN" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3773,7 +3694,6 @@ relationship: variable_of CO_330:0000140 ! SES 7 pt scale
 id: CO_330:0000378
 name: RLmf_Et_1to5
 namespace: PotatoTrait
-def: "" []
 synonym: "RLmf_Et_1to5" EXACT []
 synonym: "LMF" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3785,7 +3705,6 @@ relationship: variable_of CO_330:0000143 ! SES 5 pt scale
 id: CO_330:0000379
 name: Flavor_Et_1to5
 namespace: PotatoTrait
-def: "" []
 synonym: "Flavor_Et_1to5" EXACT []
 synonym: "FLAVOUR" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3797,7 +3716,6 @@ relationship: variable_of CO_330:0000173 ! SES 5 pt scale
 id: CO_330:0000380
 name: Textac_Et_1to5
 namespace: PotatoTrait
-def: "" []
 synonym: "Textac_Et_1to5" EXACT []
 synonym: "TEXTAC" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3809,7 +3727,6 @@ relationship: variable_of CO_330:0000176 ! SES 5 pt scale
 id: CO_330:0000381
 name: Cookqu_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "Cookqu_Et_1to7" EXACT []
 synonym: "COOKQU" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3821,7 +3738,6 @@ relationship: variable_of CO_330:0000182 ! SES 7 pt scale
 id: CO_330:0000382
 name: Afcdar_Et_1to4
 namespace: PotatoTrait
-def: "" []
 synonym: "Afcdar_Et_1to4" EXACT []
 synonym: "AFCDAR" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3833,7 +3749,6 @@ relationship: variable_of CO_330:0000185 ! SES 4 pt scale
 id: CO_330:0000383
 name: Flcac_Et_1to8
 namespace: PotatoTrait
-def: "" []
 synonym: "Flcac_Et_1to8" EXACT []
 synonym: "FLCAC" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3845,7 +3760,6 @@ relationship: variable_of CO_330:0000188 ! SES 8 pt scale
 id: CO_330:0000384
 name: Chipping_Et_1to5
 namespace: PotatoTrait
-def: "" []
 synonym: "Chipping_Et_1to5" EXACT []
 synonym: "CHIPPING" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3904,7 +3818,6 @@ relationship: scale_of CO_330:0000386 ! french fries external color - method
 id: CO_330:0000388
 name: Ffr_Et_1to5
 namespace: PotatoTrait
-def: "" []
 synonym: "Ffr_Et_1to5" EXACT []
 synonym: "FFR" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3916,7 +3829,6 @@ relationship: variable_of CO_330:0000387 ! No scale name found
 id: CO_330:0000389
 name: Cootime_Et_1to5
 namespace: PotatoTrait
-def: "" []
 synonym: "Cootime_Et_1to5" EXACT []
 synonym: "COOTIME" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -3928,7 +3840,6 @@ relationship: variable_of CO_330:0000197 ! SES 5 pt scale
 id: CO_330:0000390
 name: Tdm_Cp
 namespace: PotatoTrait
-def: "" []
 synonym: "Tdm_Cp" EXACT []
 synonym: "PDM" EXACT []
 synonym: " DM" EXACT []
@@ -3963,42 +3874,42 @@ relationship: method_of CO_330:0000391 ! tuber specific gravity
 
 [Term]
 id: CO_330:0000393
-name: Don?t use scale
+name: unitless
 namespace: PotatoScale
 is_a: CO_331:1000016 ! Numerical
 relationship: scale_of CO_330:0000392 ! tuber specific gravity - method
 
 [Term]
 id: CO_330:0000393
-name: Don?t use scale
+name: unitless
 namespace: PotatoScale
 is_a: CO_331:1000016 ! Numerical
 relationship: scale_of CO_330:0000768 ! stress - computation
 
 [Term]
 id: CO_330:0000393
-name: Don?t use scale
+name: unitless
 namespace: PotatoScale
 is_a: CO_331:1000016 ! Numerical
 relationship: scale_of CO_330:0000775 ! drought suceptibility index - computation
 
 [Term]
 id: CO_330:0000393
-name: Don?t use scale
+name: unitless
 namespace: PotatoScale
 is_a: CO_331:1000016 ! Numerical
 relationship: scale_of CO_330:0000778 ! drought tolerance index - computation
 
 [Term]
 id: CO_330:0000393
-name: Don?t use scale
+name: unitless
 namespace: PotatoScale
 is_a: CO_331:1000016 ! Numerical
 relationship: scale_of CO_330:0000780 ! tuber specific gravity - hydrometer method
 
 [Term]
 id: CO_330:0000393
-name: Don?t use scale
+name: unitless
 namespace: PotatoScale
 is_a: CO_331:1000016 ! Numerical
 relationship: scale_of CO_330:0000783 ! water use efficiency - computation
@@ -4007,19 +3918,17 @@ relationship: scale_of CO_330:0000783 ! water use efficiency - computation
 id: CO_330:0000394
 name: Sg_Cp
 namespace: PotatoTrait
-def: "" []
 synonym: "Sg_Cp" EXACT []
 synonym: "SG" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000391 ! tuber specific gravity
 relationship: variable_of CO_330:0000392 ! tuber specific gravity - method
-relationship: variable_of CO_330:0000393 ! Don?t use scale
+relationship: variable_of CO_330:0000393 ! unitless
 
 [Term]
 id: CO_330:0000395
 name: Aocp_Cp
 namespace: PotatoTrait
-def: "" []
 synonym: "Aocp_Cp" EXACT []
 synonym: "AOCP" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4031,7 +3940,6 @@ relationship: variable_of CO_330:0000179 ! %
 id: CO_330:0000396
 name: GGroperl_Et_1to3
 namespace: PotatoTrait
-def: "" []
 synonym: "GGroperl_Et_1to3" EXACT []
 synonym: "GROPER" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4043,7 +3951,6 @@ relationship: variable_of CO_330:0000149 ! SES 3 pt scale
 id: CO_330:0000397
 name: DoPeriod_Ms
 namespace: PotatoTrait
-def: "" []
 synonym: "DoPeriod_Ms" EXACT []
 synonym: "DORPD" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4055,7 +3962,6 @@ relationship: variable_of CO_330:0000155 ! days
 id: CO_330:0000398
 name: Sppt_1to3
 namespace: PotatoTrait
-def: "" []
 synonym: "Sppt_1to3" EXACT []
 synonym: "SPPATT" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4067,7 +3973,6 @@ relationship: variable_of CO_330:0000161 ! SES 3 pt scale
 id: CO_330:0000399
 name: Reht_Et_1to4
 namespace: PotatoTrait
-def: "" []
 synonym: "Reht_Et_1to4" EXACT []
 synonym: "HEAT" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4079,7 +3984,6 @@ relationship: variable_of CO_330:0000164 ! SES 4 pt scale
 id: CO_330:0000400
 name: ReSl_Et_1to4
 namespace: PotatoTrait
-def: "" []
 synonym: "ReSl_Et_1to4" EXACT []
 synonym: "SAL" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4091,7 +3995,6 @@ relationship: variable_of CO_330:0000167 ! SES 4 pt scale
 id: CO_330:0000401
 name: PollV_Et_1to7
 namespace: PotatoTrait
-def: "" []
 synonym: "PollV_Et_1to7" EXACT []
 synonym: "POLLENV" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4103,7 +4006,6 @@ relationship: variable_of CO_330:0000170 ! SES 4 pt scale
 id: CO_330:0000402
 name: Fedw_Ms_mgkg_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Fedw_Ms_mgkg_DW" EXACT []
 synonym: "FeDW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4123,7 +4025,6 @@ relationship: method_of CO_330:0000201 ! tuber iron concentration in dry weight 
 id: CO_330:0000404
 name: Fedw_Ms_mgkg_DW_XRF
 namespace: PotatoTrait
-def: "" []
 synonym: "Fedw_Ms_mgkg_DW_XRF" EXACT []
 synonym: "FeDW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4151,7 +4052,6 @@ relationship: method_of CO_330:0000405 ! tuber iron concentration in fresh weigh
 id: CO_330:0000407
 name: Fe_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Fe_Cp_mg100g_FW" EXACT []
 synonym: "FeFW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4163,7 +4063,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000408
 name: Zndw_Ms_mgkg_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Zndw_Ms_mgkg_DW" EXACT []
 synonym: "ZNDW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4175,7 +4074,6 @@ relationship: variable_of CO_330:0000203 ! mg/kg
 id: CO_330:0000409
 name: Zndw_Ms_mgkg_DW_XRF
 namespace: PotatoTrait
-def: "" []
 synonym: "Zndw_Ms_mgkg_DW_XRF" EXACT []
 synonym: "ZNDW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4203,7 +4101,6 @@ relationship: method_of CO_330:0000410 ! tuber zinc concentration in fresh weigh
 id: CO_330:0000412
 name: Zn_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Zn_Cp_mg100g_FW" EXACT []
 synonym: "ZnFW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4223,7 +4120,6 @@ is_a: CO_331:1000007 ! Quality trait
 id: CO_330:0000414
 name: Athto_Ms_mg100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Athto_Ms_mg100g_DW" EXACT []
 synonym: "Antho_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4251,7 +4147,6 @@ relationship: method_of CO_330:0000415 ! tuber anthocyanin concentration in fres
 id: CO_330:0000417
 name: Athto_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Athto_Cp_mg100g_FW" EXACT []
 synonym: "Antho_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4263,7 +4158,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000418
 name: Aah_Ms_ugTrolox_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Aah_Ms_ugTrolox_DW" EXACT []
 synonym: "AAH_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4291,7 +4185,6 @@ relationship: method_of CO_330:0000419 ! tuber hydrophilic antioxidant activity 
 id: CO_330:0000421
 name: Aah_Ms_ugTrolox_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Aah_Ms_ugTrolox_FW" EXACT []
 synonym: "AAH_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4303,7 +4196,6 @@ relationship: variable_of CO_330:0000212 ! ugTroloxequiv/gfw
 id: CO_330:0000422
 name: Aal_Ms_ugTrolox_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Aal_Ms_ugTrolox_DW" EXACT []
 synonym: "AAL_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4331,7 +4223,6 @@ relationship: method_of CO_330:0000423 ! tuber lipophilic antioxidant activity i
 id: CO_330:0000425
 name: Aal_Ms_ugTrolox_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Aal_Ms_ugTrolox_FW" EXACT []
 synonym: "AAL_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4343,7 +4234,6 @@ relationship: variable_of CO_330:0000212 ! ugTroloxequiv/gfw
 id: CO_330:0000426
 name: Ascdw_Ms_mg100_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Ascdw_Ms_mg100_DW" EXACT []
 synonym: "ASC_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4371,7 +4261,6 @@ relationship: method_of CO_330:0000427 ! tuber ascorbic acid concentration in fr
 id: CO_330:0000429
 name: Ascfw_Cp_mg100_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Ascfw_Cp_mg100_FW" EXACT []
 synonym: "ASC_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4399,7 +4288,6 @@ relationship: method_of CO_330:0000430 ! tuber protein content
 id: CO_330:0000432
 name: TubFlsPrt_Ms_pct
 namespace: PotatoTrait
-def: "" []
 synonym: "TubFlsPrt_Ms_pct" EXACT []
 synonym: "PRO" EXACT []
 synonym: " PROTEIN" EXACT []
@@ -4428,7 +4316,6 @@ relationship: method_of CO_330:0000433 ! tuber starch content
 id: CO_330:0000435
 name: TubFlsSta_Ms_pct
 namespace: PotatoTrait
-def: "" []
 synonym: "TubFlsSta_Ms_pct" EXACT []
 synonym: "STAR" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4456,7 +4343,6 @@ relationship: method_of CO_330:0000436 ! tuber fructose content
 id: CO_330:0000438
 name: TubFlsFru_Ms_pct
 namespace: PotatoTrait
-def: "" []
 synonym: "TubFlsFru_Ms_pct" EXACT []
 synonym: "FRUC" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4492,7 +4378,6 @@ relationship: method_of CO_330:0000439 ! tuber glucose concentration
 id: CO_330:0000441
 name: TubFlsGlu_Ms_pct
 namespace: PotatoTrait
-def: "" []
 synonym: "TubFlsGlu_Ms_pct" EXACT []
 synonym: "GLUC" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4520,7 +4405,6 @@ relationship: method_of CO_330:0000442 ! tuber sucrose content
 id: CO_330:0000444
 name: TubFlsSuc_Ms_pct
 namespace: PotatoTrait
-def: "" []
 synonym: "TubFlsSuc_Ms_pct" EXACT []
 synonym: "SUCR" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4548,7 +4432,6 @@ relationship: method_of CO_330:0000445 ! tuber maltose content
 id: CO_330:0000447
 name: TubFlsMal_Ms_pct
 namespace: PotatoTrait
-def: "" []
 synonym: "TubFlsMal_Ms_pct" EXACT []
 synonym: "MALT" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4576,7 +4459,6 @@ relationship: method_of CO_330:0000448 ! tuber fiber content
 id: CO_330:0000450
 name: TubFlsFf_Ms_pct
 namespace: PotatoTrait
-def: "" []
 synonym: "TubFlsFf_Ms_pct" EXACT []
 synonym: "FIBER" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -4641,11 +4523,11 @@ synonym: "MprPHar" EXACT []
 is_a: CO_331:1000005 ! Agronomic trait
 
 [Term]
-id: CO_330:0000455
+id: CO_330:0000454
 name: farmer's preference at postharvest
 namespace: PotatoTrait
 def: "Farmer's vote for clone preference at post-harvest stage" []
-synonym: "WprPHar" EXACT []
+synonym: "MprPHar" EXACT []
 is_a: CO_331:1000005 ! Agronomic trait
 
 [Term]
@@ -5204,7 +5086,7 @@ is_a: CO_331:1000007 ! Quality trait
 
 [Term]
 id: CO_330:0000497
-name: visual estimation - predominant tuber skin color
+name: visual estimation - predominant tuber skin color by farmers
 namespace: PotatoMethod
 def: "Farmers observe the color of the tuber skin" []
 is_a: CO_331:1000014 ! Estimation
@@ -5212,7 +5094,7 @@ relationship: method_of CO_330:0000078 ! predominant tuber skin color
 
 [Term]
 id: CO_330:0000498
-name: visual estimation - predominant tuber flesh color
+name: visual estimation - predominant tuber flesh color by farmers
 namespace: PotatoMethod
 def: "Farmers observe the color of the tuber flesh and rate it" []
 is_a: CO_331:1000014 ! Estimation
@@ -5260,7 +5142,7 @@ relationship: method_of CO_330:0000162 ! heat tolerance
 
 [Term]
 id: CO_330:0000504
-name: tuber flavor after cooking - method
+name: tuber flavor after cooking by panelists - method
 namespace: PotatoMethod
 def: "Panelists taste potato samples after cooking and rate it" []
 is_a: CO_331:1000014 ! Estimation
@@ -5276,7 +5158,7 @@ relationship: method_of CO_330:0000174 ! tuber texture after cooking
 
 [Term]
 id: CO_330:0000506
-name: visual estimation - plant vigor method
+name: visual estimation - plant vigor method by farmers
 namespace: PotatoMethod
 def: "Farmers observe the vigor of the plant and rate it" []
 is_a: CO_331:1000014 ! Estimation
@@ -5368,7 +5250,7 @@ name: visual estimation-women preference at post-harvest
 namespace: PotatoMethod
 def: "Women are encouraged to select three materials at post-harvest stage Three grains for the best clone, two grains for the second most preferred clone, one grain for the third most preferred clone in the mother and baby plots" []
 is_a: CO_331:1000012 ! Counting
-relationship: method_of CO_330:0000455 ! farmer's preference at postharvest
+relationship: method_of CO_330:0000454 ! farmer's preference at postharvest
 
 [Term]
 id: CO_330:0000518
@@ -5831,14 +5713,14 @@ id: CO_330:0000575
 name: PrdSknCol 8pt. Scale
 namespace: PotatoScale
 is_a: CO_331:1000018 ! Nominal
-relationship: scale_of CO_330:0000497 ! visual estimation - predominant tuber skin color
+relationship: scale_of CO_330:0000497 ! visual estimation - predominant tuber skin color by farmers
 
 [Term]
 id: CO_330:0000576
 name: PrdFlshCol  4pt. Scale
 namespace: PotatoScale
 is_a: CO_331:1000018 ! Nominal
-relationship: scale_of CO_330:0000498 ! visual estimation - predominant tuber flesh color
+relationship: scale_of CO_330:0000498 ! visual estimation - predominant tuber flesh color by farmers
 
 [Term]
 id: CO_330:0000577
@@ -5880,7 +5762,7 @@ id: CO_330:0000582
 name: TbTsAc 3pt. Scale
 namespace: PotatoScale
 is_a: CO_331:1000017 ! Ordinal
-relationship: scale_of CO_330:0000504 ! tuber flavor after cooking - method
+relationship: scale_of CO_330:0000504 ! tuber flavor after cooking by panelists - method
 
 [Term]
 id: CO_330:0000583
@@ -5894,7 +5776,7 @@ id: CO_330:0000584
 name: PlVig 3pt. Scale
 namespace: PotatoScale
 is_a: CO_331:1000018 ! Nominal
-relationship: scale_of CO_330:0000506 ! visual estimation - plant vigor method
+relationship: scale_of CO_330:0000506 ! visual estimation - plant vigor method by farmers
 
 [Term]
 id: CO_330:0000585
@@ -6139,47 +6021,43 @@ id: CO_330:0000619
 name: Flwdgr 4pt. Scale
 namespace: PotatoScale
 is_a: CO_331:1000018 ! Nominal
-relationship: scale_of CO_330:0000699 ! visual estimation - flowering degree
+relationship: scale_of CO_330:0000699 ! visual estimation - flowering degree by farmers
 
 [Term]
 id: CO_330:0000620
 name: Flwdgr_obs_0-4
 namespace: PotatoTrait
-def: "" []
 synonym: "Flwdgr_obs_0-4" EXACT []
 synonym: "FLOWERING" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000003 ! flowering degree
-relationship: variable_of CO_330:0000699 ! visual estimation - flowering degree
+relationship: variable_of CO_330:0000699 ! visual estimation - flowering degree by farmers
 relationship: variable_of CO_330:0000619 ! Flwdgr 4pt. Scale
 
 [Term]
 id: CO_330:0000621
 name: PSknCol_obs_1-10
 namespace: PotatoTrait
-def: "" []
 synonym: "PSknCol_obs_1-10" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000078 ! predominant tuber skin color
-relationship: variable_of CO_330:0000497 ! visual estimation - predominant tuber skin color
+relationship: variable_of CO_330:0000497 ! visual estimation - predominant tuber skin color by farmers
 relationship: variable_of CO_330:0000575 ! PrdSknCol 8pt. Scale
 
 [Term]
 id: CO_330:0000622
 name: PFlshCol_obs_1-9
 namespace: PotatoTrait
-def: "" []
 synonym: "PFlshCol_obs_1-9" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000090 ! predominant tuber flesh color
-relationship: variable_of CO_330:0000498 ! visual estimation - predominant tuber flesh color
+relationship: variable_of CO_330:0000498 ! visual estimation - predominant tuber flesh color by farmers
 relationship: variable_of CO_330:0000576 ! PrdFlshCol  4pt. Scale
 
 [Term]
 id: CO_330:0000623
 name: RLb_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "RLb_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000123 ! late blight resistance
@@ -6190,7 +6068,6 @@ relationship: variable_of CO_330:0000577 ! RLb 2pt. Scale
 id: CO_330:0000624
 name: RPrlv_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "RPrlv_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000132 ! potatoleaf roll virus resistance
@@ -6201,7 +6078,6 @@ relationship: variable_of CO_330:0000578 ! RPrlv 2pt. Scale
 id: CO_330:0000625
 name: RBw_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "RBw_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000135 ! bacterial wilt resistance
@@ -6212,7 +6088,6 @@ relationship: variable_of CO_330:0000579 ! RBw 2pt. Scale
 id: CO_330:0000626
 name: RRkn_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "RRkn_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000138 ! root knot nematode resistance
@@ -6223,7 +6098,6 @@ relationship: variable_of CO_330:0000580 ! RRkn 2pt. Scale
 id: CO_330:0000627
 name: Reht_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "Reht_obs_1-2" EXACT []
 synonym: "HEAT" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6235,20 +6109,18 @@ relationship: variable_of CO_330:0000581 ! Reht 2pt. Scale
 id: CO_330:0000628
 name: TbTsAc_obs_1-5
 namespace: PotatoTrait
-def: "" []
 synonym: "TbTsAc_obs_1-5" EXACT []
 synonym: "TASTE" EXACT []
 synonym: "FLAVOUR" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000171 ! tuber flavor after cooking
-relationship: variable_of CO_330:0000504 ! tuber flavor after cooking - method
+relationship: variable_of CO_330:0000504 ! tuber flavor after cooking by panelists - method
 relationship: variable_of CO_330:0000582 ! TbTsAc 3pt. Scale
 
 [Term]
 id: CO_330:0000629
 name: TbTexAc_obs_1-5
 namespace: PotatoTrait
-def: "" []
 synonym: "TbTexAc_obs_1-5" EXACT []
 synonym: "TEXTURE" EXACT []
 synonym: " TEXTAC" EXACT []
@@ -6261,18 +6133,16 @@ relationship: variable_of CO_330:0000583 ! TbTexAc 3pt. Scale
 id: CO_330:0000630
 name: PlVig_obs_1-3
 namespace: PotatoTrait
-def: "" []
 synonym: "PlVig_obs_1-3" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000273 ! plant vigor
-relationship: variable_of CO_330:0000506 ! visual estimation - plant vigor method
+relationship: variable_of CO_330:0000506 ! visual estimation - plant vigor method by farmers
 relationship: variable_of CO_330:0000584 ! PlVig 3pt. Scale
 
 [Term]
 id: CO_330:0000631
 name: Sen_obs_1-4
 namespace: PotatoTrait
-def: "" []
 synonym: "Sen_obs_1-4" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000277 ! senescence
@@ -6283,7 +6153,6 @@ relationship: variable_of CO_330:0000585 ! Sen 4pt. Scale
 id: CO_330:0000632
 name: LgStn_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "LgStn_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000341 ! length of stolons
@@ -6294,7 +6163,6 @@ relationship: variable_of CO_330:0000586 ! LgStn 2pt. Scale
 id: CO_330:0000633
 name: TubSiz_obs_1-4
 namespace: PotatoTrait
-def: "" []
 synonym: "TubSiz_obs_1-4" EXACT []
 synonym: "Tub_Size" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6306,7 +6174,6 @@ relationship: variable_of CO_330:0000587 ! TubSiz 4pt. Scale
 id: CO_330:0000634
 name: TbMkquHv_obs_1-10
 namespace: PotatoTrait
-def: "" []
 synonym: "TbMkquHv_obs_1-10" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000451 ! marketable quality
@@ -6317,7 +6184,6 @@ relationship: variable_of CO_330:0000588 ! TbMkquHv 10pt. Scale
 id: CO_330:0000635
 name: TbMkquSt_obs_1-7
 namespace: PotatoTrait
-def: "" []
 synonym: "TbMkquSt_obs_1-7" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000451 ! marketable quality
@@ -6328,7 +6194,6 @@ relationship: variable_of CO_330:0000589 ! TbMkquSt 7pt. Scale
 id: CO_330:0000636
 name: MprFlw_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "MprFlw_Ct_plot" EXACT []
 synonym: "MSM" EXACT []
 synonym: " BSM" EXACT []
@@ -6341,7 +6206,6 @@ relationship: variable_of CO_330:0000590 ! MprFlw
 id: CO_330:0000637
 name: WprFlw_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "WprFlw_Ct_plot" EXACT []
 synonym: "MSWM" EXACT []
 synonym: " BSWN" EXACT []
@@ -6354,7 +6218,6 @@ relationship: variable_of CO_330:0000591 ! WprFlw
 id: CO_330:0000638
 name: MprHar_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "MprHar_Ct_plot" EXACT []
 synonym: "MSM" EXACT []
 synonym: " BSM" EXACT []
@@ -6367,7 +6230,6 @@ relationship: variable_of CO_330:0000592 ! MprHar
 id: CO_330:0000639
 name: WprHar_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "WprHar_Ct_plot" EXACT []
 synonym: "MSWM" EXACT []
 synonym: " BSWN" EXACT []
@@ -6380,7 +6242,6 @@ relationship: variable_of CO_330:0000593 ! WprHar
 id: CO_330:0000640
 name: MprPHar_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "MprPHar_Ct_plot" EXACT []
 synonym: "SCORE_MEN" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6392,11 +6253,10 @@ relationship: variable_of CO_330:0000594 ! MprPHar
 id: CO_330:0000641
 name: WprPHar_Ct_plot
 namespace: PotatoTrait
-def: "" []
 synonym: "WprPHar_Ct_plot" EXACT []
 synonym: "SCORE_WOMEN" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_330:0000455 ! farmer's preference at postharvest
+relationship: variable_of CO_330:0000454 ! farmer's preference at postharvest
 relationship: variable_of CO_330:0000517 ! visual estimation-women preference at post-harvest
 relationship: variable_of CO_330:0000595 ! WprPHar
 
@@ -6404,7 +6264,6 @@ relationship: variable_of CO_330:0000595 ! WprPHar
 id: CO_330:0000642
 name: Ca_Ms_mgkg_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Ca_Ms_mgkg_DW" EXACT []
 synonym: "CaDW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6416,7 +6275,6 @@ relationship: variable_of CO_330:0000203 ! mg/kg
 id: CO_330:0000643
 name: Ca_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Ca_Cp_mg100g_FW" EXACT []
 synonym: "CaFW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6428,7 +6286,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000644
 name: Mg_Ms_mgkg_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Mg_Ms_mgkg_DW" EXACT []
 synonym: "MgDW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6440,7 +6297,6 @@ relationship: variable_of CO_330:0000203 ! mg/kg
 id: CO_330:0000645
 name: Mg_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Mg_Cp_mg100g_FW" EXACT []
 synonym: "MgFW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6452,7 +6308,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000646
 name: K_Ms_mgkg_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "K_Ms_mgkg_DW" EXACT []
 synonym: "KDW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6464,7 +6319,6 @@ relationship: variable_of CO_330:0000203 ! mg/kg
 id: CO_330:0000647
 name: K_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "K_Cp_mg100g_FW" EXACT []
 synonym: "KFW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6476,7 +6330,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000648
 name: P_Ms_mgkg_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "P_Ms_mgkg_DW" EXACT []
 synonym: "PDW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6488,7 +6341,6 @@ relationship: variable_of CO_330:0000203 ! mg/kg
 id: CO_330:0000649
 name: P_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "P_Cp_mg100g_FW" EXACT []
 synonym: "PFW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6500,7 +6352,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000650
 name: S_Ms_mgkg_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "S_Ms_mgkg_DW" EXACT []
 synonym: "SDW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6512,7 +6363,6 @@ relationship: variable_of CO_330:0000203 ! mg/kg
 id: CO_330:0000651
 name: S_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "S_Cp_mg100g_FW" EXACT []
 synonym: "SFW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6524,7 +6374,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000652
 name: Chloac_mg100g_Ms_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Chloac_mg100g_Ms_DW" EXACT []
 synonym: "Chloac_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6536,7 +6385,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000653
 name: Chloac_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Chloac_Cp_mg100g_FW" EXACT []
 synonym: "Chloac_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6548,7 +6396,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000654
 name: CafAc_Ms_mg100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "CafAc_Ms_mg100g_DW" EXACT []
 synonym: "CafAc_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6560,7 +6407,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000655
 name: CafAc_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "CafAc_Cp_mg100g_FW" EXACT []
 synonym: "CafAc_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6572,7 +6418,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000656
 name: Trip_Ms_mg100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Trip_Ms_mg100g_DW" EXACT []
 synonym: "Trip_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6584,7 +6429,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000657
 name: Trip_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Trip_Cp_mg100g_FW" EXACT []
 synonym: "Trip_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6596,7 +6440,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000658
 name: Tphe_Ms_mg100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Tphe_Ms_mg100g_DW" EXACT []
 synonym: "Tphe_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6608,7 +6451,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000659
 name: Tphe_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Tphe_Cp_mg100g_FW" EXACT []
 synonym: "Tphe_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6620,7 +6462,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000660
 name: Tgly_Ms_mg100g_fw
 namespace: PotatoTrait
-def: "" []
 synonym: "Tgly_Ms_mg100g_fw" EXACT []
 synonym: "Tgly_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6632,7 +6473,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000661
 name: Tgly_Cp_mg100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Tgly_Cp_mg100g_FW" EXACT []
 synonym: "Tgly_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6644,7 +6484,6 @@ relationship: variable_of CO_330:0000200 ! mg/100g
 id: CO_330:0000662
 name: Vio_Cp_ug100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Vio_Cp_ug100g_FW" EXACT []
 synonym: "Vio_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6656,7 +6495,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000663
 name: Vio_Ms_ug100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Vio_Ms_ug100g_DW" EXACT []
 synonym: "Vio_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6668,7 +6506,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000664
 name: Ant_Cp_ug100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Ant_Cp_ug100g_FW" EXACT []
 synonym: "Ant_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6680,7 +6517,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000665
 name: Ant_Ms_ug100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Ant_Ms_ug100g_DW" EXACT []
 synonym: "Ant_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6692,7 +6528,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000666
 name: Lute_Cp_ug100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Lute_Cp_ug100g_FW" EXACT []
 synonym: "Lute_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6704,7 +6539,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000667
 name: Lute_Ms_ug100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Lute_Ms_ug100g_DW" EXACT []
 synonym: "Lute_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6716,7 +6550,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000668
 name: Zea_Cp_ug100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Zea_Cp_ug100g_FW" EXACT []
 synonym: "Zea_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6728,7 +6561,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000669
 name: Zea_Ms_ug100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Zea_Ms_ug100g_DW" EXACT []
 synonym: "Zea_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6740,7 +6572,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000670
 name: Betacaro_Cp_ug100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Betacaro_Cp_ug100g_DW" EXACT []
 synonym: "Betacaro_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6752,7 +6583,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000671
 name: Betacaro_Ms_ug100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Betacaro_Ms_ug100g_FW" EXACT []
 synonym: "Betacaro_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6764,7 +6594,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000672
 name: Neo_Cp_ug100g_DW
 namespace: PotatoTrait
-def: "" []
 synonym: "Neo_Cp_ug100g_DW" EXACT []
 synonym: "Neo_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6776,7 +6605,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000673
 name: Neo_Ms_ug100g_FW
 namespace: PotatoTrait
-def: "" []
 synonym: "Neo_Ms_ug100g_FW" EXACT []
 synonym: "Neo_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6788,7 +6616,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000674
 name: Caro_Cp_ug100gDW
 namespace: PotatoTrait
-def: "" []
 synonym: "Caro_Cp_ug100gDW" EXACT []
 synonym: "Caro_DW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6800,7 +6627,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000675
 name: Caro_Ms_ug100gFW
 namespace: PotatoTrait
-def: "" []
 synonym: "Caro_Ms_ug100gFW" EXACT []
 synonym: "Caro_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -6812,7 +6638,6 @@ relationship: variable_of CO_330:0000473 ! ug/100g
 id: CO_330:0000676
 name: IdCFlo_obs_1-10
 namespace: PotatoTrait
-def: "" []
 synonym: "IdCFlo_obs_1-10" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000474 ! identified criteria at flowering
@@ -6823,7 +6648,6 @@ relationship: variable_of CO_330:0000596 ! IdCFlo 10pt. Scale
 id: CO_330:0000677
 name: IdCHav_obs_1-13
 namespace: PotatoTrait
-def: "" []
 synonym: "IdCHav_obs_1-13" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000475 ! identified criteria at harvest
@@ -6834,7 +6658,6 @@ relationship: variable_of CO_330:0000597 ! IdCHav 13pt. Scale
 id: CO_330:0000678
 name: IdCPhv_obs_1-3
 namespace: PotatoTrait
-def: "" []
 synonym: "IdCPhv_obs_1-3" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000476 ! identified criteria  at post-harvest
@@ -6845,7 +6668,6 @@ relationship: variable_of CO_330:0000598 ! IdCPhv 3pt. Scale
 id: CO_330:0000679
 name: PlArc_obs_1-13
 namespace: PotatoTrait
-def: "" []
 synonym: "PlArc_obs_1-13" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000477 ! plant architecture
@@ -6856,7 +6678,6 @@ relationship: variable_of CO_330:0000599 ! PlArc 13pt. Scale
 id: CO_330:0000680
 name: FolCol_obs_1-4
 namespace: PotatoTrait
-def: "" []
 synonym: "FolCol_obs_1-4" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000478 ! foliage color
@@ -6867,7 +6688,6 @@ relationship: variable_of CO_330:0000600 ! FolCol 4pt. Scale
 id: CO_330:0000681
 name: LefTyp_obs_1-5
 namespace: PotatoTrait
-def: "" []
 synonym: "LefTyp_obs_1-5" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000479 ! leaf type
@@ -6878,7 +6698,6 @@ relationship: variable_of CO_330:0000601 ! LefTyp 5pt. Scale
 id: CO_330:0000682
 name: FlwCol_obs_1-3
 namespace: PotatoTrait
-def: "" []
 synonym: "FlwCol_obs_1-3" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000480 ! flower color
@@ -6889,7 +6708,6 @@ relationship: variable_of CO_330:0000602 ! FlwCol 3pt. Scale
 id: CO_330:0000683
 name: RAlter_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "RAlter_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000481 ! rizoctoniasis resistance
@@ -6900,7 +6718,6 @@ relationship: variable_of CO_330:0000603 ! RAlter  2pt. Scale
 id: CO_330:0000684
 name: RMVir_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "RMVir_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000482 ! mosaic virus resistance
@@ -6911,7 +6728,6 @@ relationship: variable_of CO_330:0000604 ! RMVir  2pt. Scale
 id: CO_330:0000685
 name: RnMth_obs_1-9
 namespace: PotatoTrait
-def: "" []
 synonym: "RnMth_obs_1-9" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000483 ! reaction to moth
@@ -6922,7 +6738,6 @@ relationship: variable_of CO_330:0000605 ! RcMth 5 pt. Scale
 id: CO_330:0000686
 name: RnAph_obs_1-9
 namespace: PotatoTrait
-def: "" []
 synonym: "RnAph_obs_1-9" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000484 ! reaction to aphids
@@ -6933,7 +6748,6 @@ relationship: variable_of CO_330:0000606 ! RcAph 5 pt. Scale
 id: CO_330:0000687
 name: RnSSPW_obs_1-9
 namespace: PotatoTrait
-def: "" []
 synonym: "RnSSPW_obs_1-9" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000485 ! reaction to potato weevil
@@ -6944,7 +6758,6 @@ relationship: variable_of CO_330:0000607 ! RcSSPW 5 pt. Scale
 id: CO_330:0000688
 name: lDro_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "lDro_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000486 ! drought tolerance
@@ -6955,7 +6768,6 @@ relationship: variable_of CO_330:0000608 ! TolDro 2pt. Scale
 id: CO_330:0000689
 name: lHst_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "lHst_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000487 ! hailstorm tolerance
@@ -6966,7 +6778,6 @@ relationship: variable_of CO_330:0000609 ! TolHst 2pt. Scale
 id: CO_330:0000690
 name: lFrost_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "lFrost_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000488 ! frost tolerant
@@ -6977,7 +6788,6 @@ relationship: variable_of CO_330:0000610 ! TolFrost 2pt. Scale
 id: CO_330:0000691
 name: lMoS_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "lMoS_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000489 ! moisture  tolerance
@@ -6988,7 +6798,6 @@ relationship: variable_of CO_330:0000611 ! TolMoS 2pt. Scale
 id: CO_330:0000692
 name: NuEyTb_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "NuEyTb_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000490 ! number of eyes
@@ -6999,7 +6808,6 @@ relationship: variable_of CO_330:0000612 ! NuEyTb 2pt. Scale
 id: CO_330:0000693
 name: TexSkn_obs_1-5
 namespace: PotatoTrait
-def: "" []
 synonym: "TexSkn_obs_1-5" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000491 ! tuber skin texture
@@ -7010,7 +6818,6 @@ relationship: variable_of CO_330:0000613 ! TexSkn 5pt. Scale
 id: CO_330:0000694
 name: TbHcom_obs_1-5
 namespace: PotatoTrait
-def: "" []
 synonym: "TbHcom_obs_1-5" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000492 ! home consumption
@@ -7021,7 +6828,6 @@ relationship: variable_of CO_330:0000614 ! TbHcom 6pt. Scale
 id: CO_330:0000695
 name: SprEal_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "SprEal_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000493 ! earliness of sprouting
@@ -7032,7 +6838,6 @@ relationship: variable_of CO_330:0000615 ! SprEal 2pt. Scale
 id: CO_330:0000696
 name: SprTyp_obs_1-2
 namespace: PotatoTrait
-def: "" []
 synonym: "SprTyp_obs_1-2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000494 ! sprout type
@@ -7043,7 +6848,6 @@ relationship: variable_of CO_330:0000616 ! SprTyp 2pt. Scale
 id: CO_330:0000697
 name: GlFaPr_Cp
 namespace: PotatoTrait
-def: "" []
 synonym: "GlFaPr_Cp" EXACT []
 synonym: "MSGLO" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -7055,7 +6859,6 @@ relationship: variable_of CO_330:0000617 ! GlFaPr
 id: CO_330:0000698
 name: TbApAc_obs_1-5
 namespace: PotatoTrait
-def: "" []
 synonym: "TbApAc_obs_1-5" EXACT []
 synonym: "APPEARANCE" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -7065,7 +6868,7 @@ relationship: variable_of CO_330:0000618 ! TbApAc 3pt. Scale
 
 [Term]
 id: CO_330:0000699
-name: visual estimation - flowering degree
+name: visual estimation - flowering degree by farmers
 namespace: PotatoMethod
 def: "Farmers observe the presence of flowers on the plant and rate it" []
 is_a: CO_331:1000014 ! Estimation
@@ -7077,7 +6880,7 @@ name: shoot system dry matter content
 namespace: PotatoTrait
 def: "The areal part dry matter content" []
 synonym: "ArplDm" EXACT []
-is_a: CO_331:1000005 ! Post harvest traits
+is_a: CO_331:1000007 ! Post harvest traits
 
 [Term]
 id: CO_330:0000700
@@ -7085,6 +6888,14 @@ name: shoot system dry matter content
 namespace: PotatoTrait
 def: "The areal part dry matter content" []
 synonym: "ArplDm" EXACT []
+is_a: CO_331:1000007 ! Post harvest traits
+
+[Term]
+id: CO_330:0000701
+name: biomass dry matter content
+namespace: PotatoTrait
+def: "The dry matter content of the entire plant" []
+synonym: "TBDMC" EXACT []
 is_a: CO_331:1000005 ! Post harvest traits
 
 [Term]
@@ -7096,12 +6907,20 @@ synonym: "TBDMC" EXACT []
 is_a: CO_331:1000007 ! Post harvest traits
 
 [Term]
-id: CO_330:0000701
-name: biomass dry matter content
+id: CO_330:0000702
+name: biomass weight
 namespace: PotatoTrait
-def: "The dry matter content of the entire plant" []
-synonym: "TBDMC" EXACT []
-is_a: CO_331:1000007 ! Post harvest traits
+def: "The weight of the biomass of the entire plant" []
+synonym: "BmsWg" EXACT []
+is_a: CO_331:1000005 ! Post harvest traits
+
+[Term]
+id: CO_330:0000702
+name: biomass weight
+namespace: PotatoTrait
+def: "The weight of the biomass of the entire plant" []
+synonym: "BmsWg" EXACT []
+is_a: CO_331:1000005 ! Post harvest traits
 
 [Term]
 id: CO_330:0000702
@@ -7120,20 +6939,12 @@ synonym: "BmsWg" EXACT []
 is_a: CO_331:1000007 ! Post harvest traits
 
 [Term]
-id: CO_330:0000702
-name: biomass weight
+id: CO_330:0000703
+name: canopy cover
 namespace: PotatoTrait
-def: "The weight of the biomass of the entire plant" []
-synonym: "BmsWg" EXACT []
-is_a: CO_331:1000007 ! Post harvest traits
-
-[Term]
-id: CO_330:0000702
-name: biomass weight
-namespace: PotatoTrait
-def: "The weight of the biomass of the entire plant" []
-synonym: "BmsWg" EXACT []
-is_a: CO_331:1000007 ! Post harvest traits
+def: "The proportion of the†plant†that extends into the soil." []
+synonym: "CnpCov" EXACT []
+is_a: CO_331:1000007 ! Physiological traits
 
 [Term]
 id: CO_330:0000703
@@ -7272,6 +7083,14 @@ synonym: "LfletAr" EXACT []
 is_a: CO_331:1000005 ! Agronomic trait
 
 [Term]
+id: CO_330:0000709
+name: leaflet area
+namespace: PotatoTrait
+def: "The surface area of the leaflet" []
+synonym: "LfletAr" EXACT []
+is_a: CO_331:1000007 ! Physiological traits
+
+[Term]
 id: CO_330:0000710
 name: plant productivity
 namespace: PotatoTrait
@@ -7301,7 +7120,7 @@ name: root system dry matter content
 namespace: PotatoTrait
 def: "The root system dry matter content" []
 synonym: "RsyDm" EXACT []
-is_a: CO_331:1000005 ! Post harvest traits
+is_a: CO_331:1000007 ! Post harvest traits
 
 [Term]
 id: CO_330:0000712
@@ -7605,20 +7424,12 @@ is_a: CO_331:1000016 ! Numerical
 relationship: scale_of CO_330:0000865 ! canopy reflectance uav method - measurement
 
 [Term]
-id: CO_330:0000726
-name: canopy cover
-namespace: PotatoTrait
-def: "The proportion of the†plant†that extends into the soil." []
-synonym: "CnpCov" EXACT []
-is_a: CO_331:1000007 ! Physiological traits
-
-[Term]
 id: CO_330:0000727
 name: canopy cover (grid) - estimation
 namespace: PotatoMethod
 def: "Value the Canopy cover and record it" []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_330:0000726 ! canopy cover
+relationship: method_of CO_330:0000703 ! canopy cover
 
 [Term]
 id: CO_330:0000728
@@ -7628,7 +7439,7 @@ def: "Canopy cover using grid in percentage" []
 synonym: "CC_G_Et_%" EXACT []
 synonym: "CCG" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_330:0000726 ! canopy cover
+relationship: variable_of CO_330:0000703 ! canopy cover
 relationship: variable_of CO_330:0000727 ! canopy cover (grid) - estimation
 relationship: variable_of CO_330:0000179 ! %
 
@@ -7681,6 +7492,14 @@ synonym: "PltHvsWg" EXACT []
 is_a: CO_331:1000007 ! Post harvest traits
 
 [Term]
+id: CO_330:0000733
+name: harvest index
+namespace: PotatoTrait
+def: "A ratio of yield and biomass that has been produced" []
+synonym: "PltHvsWg" EXACT []
+is_a: CO_331:1000007 ! Post harvest traits
+
+[Term]
 id: CO_330:0000734
 name: harvest index dry weight - computation
 namespace: PotatoMethod
@@ -7701,20 +7520,12 @@ relationship: variable_of CO_330:0000734 ! harvest index dry weight - computatio
 relationship: variable_of CO_330:0000179 ! %
 
 [Term]
-id: CO_330:0000736
-name: harvest index
-namespace: PotatoTrait
-def: "A ratio of yield and biomass that has been produced" []
-synonym: "PltHvsWg" EXACT []
-is_a: CO_331:1000007 ! Post harvest traits
-
-[Term]
 id: CO_330:0000737
 name: harvest index fresh weight - computation
 namespace: PotatoMethod
 def: "Compute Harvest index fresh weight using the formula" []
 is_a: CO_331:1000013 ! Computation
-relationship: method_of CO_330:0000736 ! harvest index
+relationship: method_of CO_330:0000733 ! harvest index
 
 [Term]
 id: CO_330:0000738
@@ -7724,7 +7535,7 @@ def: "Harvest index fresh weight computation percentage" []
 synonym: "Hifw_Cp_%" EXACT []
 synonym: "HI_FW" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_330:0000736 ! harvest index
+relationship: variable_of CO_330:0000733 ! harvest index
 relationship: variable_of CO_330:0000737 ! harvest index fresh weight - computation
 relationship: variable_of CO_330:0000179 ! %
 
@@ -7734,7 +7545,7 @@ name: relative water content
 namespace: PotatoTrait
 def: "The relative water content of the leaf" []
 synonym: "RelWC" EXACT []
-is_a: CO_331:1000005 ! Physiological traits
+is_a: CO_331:1000007 ! Physiological traits
 
 [Term]
 id: CO_330:0000740
@@ -7981,7 +7792,7 @@ id: CO_330:0000765
 name: Specific leaf area computation cm2 per g
 namespace: PotatoTrait
 def: "The specific area of the leaf" []
-synonym: "LfletA_Ms_cm2" EXACT []
+synonym: "LSLA_Ms_cm2" EXACT []
 synonym: "LFA_EV" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000709 ! leaflet area
@@ -8026,7 +7837,7 @@ synonym: "SI" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000767 ! drought stress intensity
 relationship: variable_of CO_330:0000768 ! stress - computation
-relationship: variable_of CO_330:0000393 ! Don?t use scale
+relationship: variable_of CO_330:0000393 ! unitless
 
 [Term]
 id: CO_330:0000770
@@ -8089,7 +7900,15 @@ synonym: "DSI" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000774 ! drought susceptibility index
 relationship: variable_of CO_330:0000775 ! drought suceptibility index - computation
-relationship: variable_of CO_330:0000393 ! Don?t use scale
+relationship: variable_of CO_330:0000393 ! unitless
+
+[Term]
+id: CO_330:0000777
+name: drought tolerance index
+namespace: PotatoTrait
+def: "The drought tolerance of the plant" []
+synonym: "DrTolind" EXACT []
+is_a: CO_331:1000005 ! Post harvest traits
 
 [Term]
 id: CO_330:0000777
@@ -8117,7 +7936,7 @@ synonym: "DTI" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000777 ! drought tolerance index
 relationship: variable_of CO_330:0000778 ! drought tolerance index - computation
-relationship: variable_of CO_330:0000393 ! Don?t use scale
+relationship: variable_of CO_330:0000393 ! unitless
 
 [Term]
 id: CO_330:0000780
@@ -8137,7 +7956,7 @@ synonym: "SG" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000391 ! tuber specific gravity
 relationship: variable_of CO_330:0000780 ! tuber specific gravity - hydrometer method
-relationship: variable_of CO_330:0000393 ! Don?t use scale
+relationship: variable_of CO_330:0000393 ! unitless
 
 [Term]
 id: CO_330:0000782
@@ -8145,7 +7964,7 @@ name: water use efficiency
 namespace: PotatoTrait
 def: "The water use efficiency of the plant" []
 synonym: "WUE" EXACT []
-is_a: CO_331:1000005 ! Physiological traits
+is_a: CO_331:1000007 ! Physiological traits
 
 [Term]
 id: CO_330:0000783
@@ -8165,7 +7984,7 @@ synonym: "WUE" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000782 ! water use efficiency
 relationship: variable_of CO_330:0000783 ! water use efficiency - computation
-relationship: variable_of CO_330:0000393 ! Don?t use scale
+relationship: variable_of CO_330:0000393 ! unitless
 
 [Term]
 id: CO_330:0000785
@@ -8396,20 +8215,12 @@ relationship: variable_of CO_330:0000806 ! leaf chlorophyll content index (scout
 relationship: variable_of CO_330:0000807 ! SCOUT units
 
 [Term]
-id: CO_330:0000809
-name: leaflet area
-namespace: PotatoTrait
-def: "The surface area of the leaflet" []
-synonym: "LfletAr" EXACT []
-is_a: CO_331:1000005 ! Physiological traits
-
-[Term]
 id: CO_330:0000810
 name: leaflet area - computation
 namespace: PotatoMethod
 def: "Compute the Specific area of the leaf using the formula" []
 is_a: CO_331:1000013 ! Computation
-relationship: method_of CO_330:0000809 ! leaflet area
+relationship: method_of CO_330:0000709 ! leaflet area
 
 [Term]
 id: CO_330:0000811
@@ -8426,7 +8237,7 @@ def: "Leaflet area using EasyLeafArea software measuring cm2" []
 synonym: "SLA_Cp_cm2g" EXACT []
 synonym: "SLA_EV" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_330:0000809 ! leaflet area
+relationship: variable_of CO_330:0000709 ! leaflet area
 relationship: variable_of CO_330:0000810 ! leaflet area - computation
 relationship: variable_of CO_330:0000811 ! cm2/g
 
@@ -8460,7 +8271,7 @@ name: leaflet turgid weight
 namespace: PotatoTrait
 def: "The weight of the leaflet" []
 synonym: "LfletTgw" EXACT []
-is_a: CO_331:1000005 ! Post harvest traits
+is_a: CO_331:1000007 ! Post harvest traits
 
 [Term]
 id: CO_330:0000816
@@ -8643,20 +8454,12 @@ relationship: variable_of CO_330:0000832 ! root density - estimation
 relationship: variable_of CO_330:0000833 ! RD 3pt scale
 
 [Term]
-id: CO_330:0000835
-name: drought tolerance index
-namespace: PotatoTrait
-def: "The drought tolerance of the plant" []
-synonym: "DrTolind" EXACT []
-is_a: CO_331:1000005 ! Post harvest traits
-
-[Term]
 id: CO_330:0000836
 name: drought tolerance - computation
 namespace: PotatoMethod
 def: "Compute drought tolerance index measuring kg using the formula" []
 is_a: CO_331:1000013 ! Computation
-relationship: method_of CO_330:0000835 ! drought tolerance index
+relationship: method_of CO_330:0000777 ! drought tolerance index
 
 [Term]
 id: CO_330:0000837
@@ -8666,7 +8469,7 @@ def: "Tolerance index computing" []
 synonym: "DrTolind_Cp_kg" EXACT []
 synonym: "TOL" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_330:0000835 ! drought tolerance index
+relationship: variable_of CO_330:0000777 ! drought tolerance index
 relationship: variable_of CO_330:0000836 ! drought tolerance - computation
 relationship: variable_of CO_330:0000724 ! kg
 
@@ -8941,6 +8744,7 @@ is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_330:0000704 ! canopy reflectance
 relationship: variable_of CO_330:0000865 ! canopy reflectance uav method - measurement
 relationship: variable_of CO_330:0000725 ! NDVI
+
 [Term]
 id: CO_331:1000001
 name: Methods
@@ -8986,7 +8790,7 @@ namespace: PotatoTrait
 is_a: CO_331:0000000 ! CGIAR Potato trait ontology
 
 [Term]
-id: CO_331:1000008
+id: CO_331:1000009
 name: Physiological_trait
 namespace: PotatoTrait
 is_a: CO_331:0000000 ! CGIAR Potato trait ontology

@@ -2,6 +2,7 @@ format-version: 1.2
 date: 07:04:2020 19:35
 default-namespace: PotatoTrait
 ontology: co_330
+
 [Term]
 id: CO_330:0000000
 name: plant growth habit
@@ -7495,6 +7496,7 @@ namespace: PotatoScale
 [Term]
 id: CO_330:1000003
 name: Variables
+is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 
 [Term]
 id: CO_330:1000004

@@ -1,1 +1,1 @@
-# CO-330-potato-traits
+# CO_330-potato-traits

@@ -1958,7 +1958,6 @@ name: potato number of harvested plants trait
 def: "The number of plants harvested" [CO:curators]
 synonym: "Harvested plant number" EXACT []
 synonym: "PltHrv" EXACT []
-is_a: TO:0000371
 
 [Term]
 id: CO_330:0000285
@@ -1988,7 +1987,6 @@ name: potato proportion of plants harvested trait
 def: "The proportion of plant harvested over plant emerged" [CO:curators]
 synonym: "Percentage of Plants harvested" EXACT []
 synonym: "PPlHv" EXACT []
-is_a: TO:0000371
 
 [Term]
 id: CO_330:0000289

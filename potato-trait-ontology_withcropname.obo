@@ -823,7 +823,6 @@ id: CO_330:0000120
 name: potato ploidy trait
 def: "The ploidy of plant" [CO:curators]
 synonym: "Pldy" EXACT []
-is_a: TO:0000392
 
 [Term]
 id: CO_330:0000121

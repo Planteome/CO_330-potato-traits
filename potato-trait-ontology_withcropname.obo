@@ -455,7 +455,7 @@ name: potato base shape of the terminal leaflets trait
 def: "The base shape of the terminal leaflet" [CO:curators]
 synonym: "BShTLf" EXACT []
 synonym: "Terminal leaflet base shape" EXACT []
-is_a: TO:0000419
+is_a: TO:0001116 ! leaflet shape
 
 [Term]
 id: CO_330:0000067
@@ -476,7 +476,7 @@ name: potato apex shape of the terminal leaflets trait
 def: "The apex shape of the terminal leaflet" [CO:curators]
 synonym: "AShTLf" EXACT []
 synonym: "Terminal leaflet apex shape" EXACT []
-is_a: TO:0000419
+is_a: TO:0001116 ! leaflet shape
 
 [Term]
 id: CO_330:0000070

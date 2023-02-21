@@ -414,7 +414,7 @@ id: CO_330:0000060
 name: potato apical leaflet shape trait
 def: "The shape of the apical leaflet" [CO:curators]
 synonym: "ApLfSh" EXACT []
-is_a: TO:0000419
+is_a: TO:0001116 ! leaflet shape
 
 [Term]
 id: CO_330:0000061
@@ -434,7 +434,7 @@ id: CO_330:0000063
 name: potato lateral leaflet shape trait
 def: "The shape of the lateral leaflet" [CO:curators]
 synonym: "LaLfSh" EXACT []
-is_a: TO:0000419
+is_a: TO:0001116 ! leaflet shape
 
 [Term]
 id: CO_330:0000064

@@ -1,0 +1,11 @@
+curie_map:
+  CO_330: https://cropontology.org/rdf/CO_330_
+  TO: http://purl.obolibrary.org/obo/TO_
+  skos: http://www.w3.org/2004/02/skos/core#
+license: https://creativecommons.org/licenses/by/4.0/
+mapping_provider: 
+mapping_set_group: potato_mappings
+mapping_set_id: co_330_to
+mapping_set_title: 'Potato Mappings: CO_330-TO'
+object_source: http://purl.obolibrary.org/to.owl
+subject_source: https://cropontology.org/ontology/CO_330/Potato/owl

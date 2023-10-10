@@ -952,7 +952,7 @@ name: late blight resistance
 namespace: PotatoTrait
 def: "The plant resistance to late blight" []
 synonym: "PlRLb" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000124
@@ -975,7 +975,7 @@ name: potato virus x resistance
 namespace: PotatoTrait
 def: "The plant resistance to potato virus X" []
 synonym: "RPvx" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000127
@@ -998,7 +998,7 @@ name: potato virus y resistance
 namespace: PotatoTrait
 def: "The plant resistance to potato virus Y" []
 synonym: "Rpvy" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000130
@@ -1021,7 +1021,7 @@ name: potatoleaf roll virus resistance
 namespace: PotatoTrait
 def: "The plant resistance to potato leaf roll virus" []
 synonym: "RPrlv" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000133
@@ -1044,7 +1044,7 @@ name: bacterial wilt resistance
 namespace: PotatoTrait
 def: "The plant resistance to bacterial wilt" []
 synonym: "RBw" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000136
@@ -1067,7 +1067,7 @@ name: root knot nematode resistance
 namespace: PotatoTrait
 def: "The tuber resistance to root knot nematode" []
 synonym: "RRkn" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000139
@@ -1090,7 +1090,7 @@ name: leaf miner fly resistance
 namespace: PotatoTrait
 def: "The plant resistance to leaf miner fly" []
 synonym: "RLmf" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000142
@@ -1195,7 +1195,7 @@ name: heat tolerance
 namespace: PotatoTrait
 def: "The tolerance to heat of the plant" []
 synonym: "Reht" EXACT []
-is_a: CO_330:1000004 ! Abiotic_stress trait
+is_a: CO_330:1000004 ! ABiotic stress trait
 
 [Term]
 id: CO_330:0000163
@@ -1217,7 +1217,7 @@ id: CO_330:0000165
 name: salinity tolerance
 namespace: PotatoTrait
 def: "The tolerance to salinity of the plant" []
-is_a: CO_330:1000004 ! Abiotic_stress trait
+is_a: CO_330:1000004 ! ABiotic stress trait
 
 [Term]
 id: CO_330:0000166
@@ -2086,7 +2086,7 @@ name: number of tubers planted
 namespace: PotatoTrait
 def: "The number of planted tubers" []
 synonym: "NTbPl" EXACT []
-is_a: CO_330:1000008 ! Crop_research trait
+is_a: CO_330:1000008 ! Crop research trait
 
 [Term]
 id: CO_330:0000264
@@ -2113,7 +2113,7 @@ name: number of emerged plants
 namespace: PotatoTrait
 def: "The number of emerged plants" []
 synonym: "NTbEg" EXACT []
-is_a: CO_330:1000008 ! Crop_research trait
+is_a: CO_330:1000008 ! Crop research trait
 
 [Term]
 id: CO_330:0000267
@@ -2242,7 +2242,7 @@ name: plant emergence proportion
 namespace: PotatoTrait
 def: "The proportion of plants emerged over tubers planted" []
 synonym: "PPlEg" EXACT []
-is_a: CO_330:1000008 ! Crop_research trait
+is_a: CO_330:1000008 ! Crop research trait
 
 [Term]
 id: CO_330:0000282
@@ -2269,7 +2269,7 @@ name: number of harvested plants
 namespace: PotatoTrait
 def: "The number of plants harvested" []
 synonym: "PltHrv" EXACT []
-is_a: CO_330:1000008 ! Crop_research trait
+is_a: CO_330:1000008 ! Crop research trait
 
 [Term]
 id: CO_330:0000285
@@ -2303,7 +2303,7 @@ name: proportion of plants harvested
 namespace: PotatoTrait
 def: "The proportion of plant harvested over plant emerged" []
 synonym: "PPlHv" EXACT []
-is_a: CO_330:1000008 ! Crop_research trait
+is_a: CO_330:1000008 ! Crop research trait
 
 [Term]
 id: CO_330:0000289
@@ -2330,7 +2330,7 @@ name: number?of?marketable tubers
 namespace: PotatoTrait
 def: "The total number of marketable tubers per unit area" []
 synonym: "NMTb" EXACT []
-is_a: CO_330:1000008 ! Crop_research trait
+is_a: CO_330:1000008 ! Crop research trait
 
 [Term]
 id: CO_330:0000292
@@ -2357,7 +2357,7 @@ name: number?of?marketable tubers per plant
 namespace: PotatoTrait
 def: "The total number of marketable tubers per plant" []
 synonym: "NMTb" EXACT []
-is_a: CO_330:1000008 ! Crop_research trait
+is_a: CO_330:1000008 ! Crop research trait
 
 [Term]
 id: CO_330:0000295
@@ -2391,7 +2391,7 @@ name: non-marketable tuber number
 namespace: PotatoTrait
 def: "The number of non-marketable tubers per unit area" []
 synonym: "NNMTb" EXACT []
-is_a: CO_330:1000008 ! Crop_research trait
+is_a: CO_330:1000008 ! Crop research trait
 
 [Term]
 id: CO_330:0000299
@@ -2418,7 +2418,7 @@ name: tuber number
 namespace: PotatoTrait
 def: "The total number of tubers per unit area" []
 synonym: "TubN" EXACT []
-is_a: CO_330:1000008 ! Crop_research trait
+is_a: CO_330:1000008 ! Crop research trait
 
 [Term]
 id: CO_330:0000302
@@ -2913,7 +2913,7 @@ name: late blight severity
 namespace: PotatoTrait
 def: "The severity of late blight disease on foliage caused by Phytophthora infestans" []
 synonym: "PFolLB" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000358
@@ -2940,7 +2940,7 @@ name: late blight audpc
 namespace: PotatoTrait
 def: "The area under the disease progress curve for late blight" []
 synonym: "LBR_AUDPC" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000361
@@ -2974,7 +2974,7 @@ name: late blight relative audpc
 namespace: PotatoTrait
 def: "The relative area under the disease progress curve for late blight" []
 synonym: "LBR_rAUDPC" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000365
@@ -3009,7 +3009,7 @@ name: late blight susceptibility
 namespace: PotatoTrait
 def: "The plant susceptibility to late blight disease" []
 synonym: "LBR_sAUDPC" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000369
@@ -4035,7 +4035,7 @@ name: rizoctoniasis resistance
 namespace: PotatoTrait
 def: "The plant resistance to rizoctoniasis" []
 synonym: "RAlter" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000482
@@ -4043,7 +4043,7 @@ name: mosaic virus resistance
 namespace: PotatoTrait
 def: "The plant resistance to mosaic virus" []
 synonym: "RMVir" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000483
@@ -4051,7 +4051,7 @@ name: reaction to moth
 namespace: PotatoTrait
 def: "The reaction of the plant or plant part to damage caused by  Moth" []
 synonym: "RnMth" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000484
@@ -4059,7 +4059,7 @@ name: reaction to aphids
 namespace: PotatoTrait
 def: "The reaction of the plant or plant part to damage caused by Aphis" []
 synonym: "RnAph" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000485
@@ -4067,7 +4067,7 @@ name: reaction to potato weevil
 namespace: PotatoTrait
 def: "The reaction of the plant or plant part to damage caused by potato weevil" []
 synonym: "RnSSPW" EXACT []
-is_a: CO_330:1000006 ! Biotic_stress trait
+is_a: CO_330:1000006 ! Biotic stress trait
 
 [Term]
 id: CO_330:0000486
@@ -4075,7 +4075,7 @@ name: drought tolerance
 namespace: PotatoTrait
 def: "The tolerance to drought of the plant" []
 synonym: "TolDro" EXACT []
-is_a: CO_330:1000004 ! Abiotic_stress trait
+is_a: CO_330:1000004 ! ABiotic stress trait
 
 [Term]
 id: CO_330:0000487
@@ -4083,7 +4083,7 @@ name: hailstorm tolerance
 namespace: PotatoTrait
 def: "The tolerant to hailstorm of the plant" []
 synonym: "TolHst" EXACT []
-is_a: CO_330:1000004 ! Abiotic_stress trait
+is_a: CO_330:1000004 ! ABiotic stress trait
 
 [Term]
 id: CO_330:0000488
@@ -4091,7 +4091,7 @@ name: frost tolerant
 namespace: PotatoTrait
 def: "The tolerance of the plant to frost" []
 synonym: "TolFrost" EXACT []
-is_a: CO_330:1000004 ! Abiotic_stress trait
+is_a: CO_330:1000004 ! ABiotic stress trait
 
 [Term]
 id: CO_330:0000489
@@ -4099,7 +4099,7 @@ name: moisture  tolerance
 namespace: PotatoTrait
 def: "The tolerant to excessive soil moisture" []
 synonym: "TolMoS" EXACT []
-is_a: CO_330:1000004 ! Abiotic_stress trait
+is_a: CO_330:1000004 ! ABiotic stress trait
 
 [Term]
 id: CO_330:0000490
@@ -7500,7 +7500,7 @@ is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 
 [Term]
 id: CO_330:1000004
-name: Abiotic_stress trait
+name: ABiotic stress trait
 namespace: PotatoTrait
 is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 
@@ -7512,7 +7512,7 @@ is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 
 [Term]
 id: CO_330:1000006
-name: Biotic_stress trait
+name: Biotic stress trait
 namespace: PotatoTrait
 is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 
@@ -7524,7 +7524,7 @@ is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 
 [Term]
 id: CO_330:1000008
-name: Crop_research trait
+name: Crop research trait
 namespace: PotatoTrait
 is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 

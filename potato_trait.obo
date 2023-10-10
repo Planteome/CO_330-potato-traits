@@ -7588,6 +7588,42 @@ name: Nominal
 namespace: PotatoScale
 is_a: CO_330:1000002 ! Scales
 
+[Term]
+id: CO_330:1000019
+name: Texture in hand
+namespace: PotatoTrait
+is_a: CO_330:1000007 ! Quality trait
+
+[Term]
+id: CO_330:1000020
+name: After taste
+namespace: PotatoTrait
+is_a: CO_330:1000007 ! Quality trait
+
+[Term]
+id: CO_330:1000021
+name: Texture in mouth
+namespace: PotatoTrait
+is_a: CO_330:1000007 ! Quality trait
+
+[Term]
+id: CO_330:1000022
+name: Appearance
+namespace: PotatoTrait
+is_a: CO_330:1000007 ! Quality trait
+
+[Term]
+id: CO_330:1000023
+name: Aroma
+namespace: PotatoTrait
+is_a: CO_330:1000007 ! Quality trait
+
+[Term]
+id: CO_330:1000024
+name: Odour
+namespace: PotatoTrait
+is_a: CO_330:1000007 ! Quality trait
+
 [Typedef]
 id: method_of
 name: method_of

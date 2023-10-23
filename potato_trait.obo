@@ -7478,6 +7478,892 @@ relationship: variable_of CO_330:0000725 ! NDVI
 relationship: variable_of CO_330:0000865 ! canopy reflectance uav method - measurement
 
 [Term]
+id: CO_330:0000868
+name: TbQua_Tri_1to3
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000869 ! Tuber overall quality
+relationship: variable_of CO_330:0000870 ! tricot method
+relationship: variable_of CO_330:0000871 ! Tricot scale
+created_by: Jacob Van Etten
+
+[Term]
+id: CO_330:0000869
+name: Tuber overall quality
+def: "Overall quality of the tuber" []
+synonym: "TbQual" EXACT []
+is_a: CO_330:1000007 ! Quality trait
+
+[Term]
+id: CO_330:0000870
+name: tricot method
+namespace: PotatoMethod
+def: "Tricot is a research methodology that involves many growers as citizen scientists in the testing of agricultural technologies, such as new crop varieties or promising fertilizer regimes. Tricot stands for ‘triadic comparisons of technology options’. Growers compare technology options in randomized sub-sets of three, or ‘triads’, and in incomplete blocks." []
+is_a: CO_330:1000014 ! Estimation
+relationship: method_of CO_330:0000879 ! Marketable quality after storage
+
+[Term]
+id: CO_330:0000871
+name: Tricot scale
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000870 ! tricot method
+
+[Term]
+id: CO_330:0000872
+name: PlPtIn_tri_1to3
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000870 ! tricot method
+relationship: variable_of CO_330:0000871 ! Tricot scale
+relationship: variable_of CO_330:0000873 ! Plant pest incidence
+created_by: Jacob Van Etten
+
+[Term]
+id: CO_330:0000873
+name: Plant pest incidence
+def: "Presence of any pest symptoms in the plant" []
+synonym: "PlPtIn" EXACT []
+is_a: CO_330:1000006 ! Biotic stress trait
+
+[Term]
+id: CO_330:0000874
+name: MatTm_Tri_1to3
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000870 ! tricot method
+relationship: variable_of CO_330:0000871 ! Tricot scale
+relationship: variable_of CO_330:0000875 ! Maturity time
+created_by: Jacob Van Etten
+
+[Term]
+id: CO_330:0000875
+name: Maturity time
+def: "Time until the plant is mature" []
+synonym: "MatTm" EXACT []
+is_a: CO_330:1000009 ! Physiological trait
+
+[Term]
+id: CO_330:0000876
+name: TbMkquH_Tri_1to3
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000870 ! tricot method
+relationship: variable_of CO_330:0000871 ! Tricot scale
+relationship: variable_of CO_330:0000877 ! Marketable quality after harvest
+created_by: Jacob Van Etten
+
+[Term]
+id: CO_330:0000877
+name: Marketable quality after harvest
+def: "The marketable qualities of tubers after harvest" []
+synonym: "TbMkquH" EXACT []
+is_a: CO_330:1000007 ! Quality trait
+
+[Term]
+id: CO_330:0000878
+name: TbMkquS_Tri_1to3
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000870 ! tricot method
+relationship: variable_of CO_330:0000871 ! Tricot scale
+relationship: variable_of CO_330:0000879 ! Marketable quality after storage
+created_by: Jacob Van Etten
+
+[Term]
+id: CO_330:0000879
+name: Marketable quality after storage
+def: "The marketable qualities of tubers after storage" []
+synonym: "TbMkquS" EXACT []
+is_a: CO_330:1000007 ! Quality trait
+
+[Term]
+id: CO_330:0000880
+name: Boiled potato moisture release measurement 2 pt scale
+synonym: "BoiPotatRelMoistinHd_Meas_2pt" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000903 ! Boiled potato moisture release
+relationship: variable_of CO_330:0000933 ! moisture release texture by mouth method
+relationship: variable_of CO_330:0000953 ! 2 pt scale
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000881
+name: Boiled potato bitter aftertaste measurement 2 pt scale
+synonym: "BoiPotatBittAftrTast_2pt" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000904 ! Boiled potato bitter aftertaste
+relationship: variable_of CO_330:0000939 ! taste method
+relationship: variable_of CO_330:0000953 ! 2 pt scale
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000882
+name: Boiled potato crunchiness measurement 0-10 scale
+synonym: "BoiPotatCrunchMout_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000905 ! Boiled potato crunchiness
+relationship: variable_of CO_330:0000928 ! crunchiness texture in mouth method
+relationship: variable_of CO_330:0000948 ! Crunchiness texture in mouth method sclae 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000883
+name: Boiled potato translucency measurement 0-10 scale
+synonym: "BoiPotatTransl_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000906 ! Boiled potato translucency
+relationship: variable_of CO_330:0000938 ! surface transparency method
+relationship: variable_of CO_330:0000959 ! Surface translucy scale 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000884
+name: Boiled potato cohesiveness/moldability measurement scale 0-10
+synonym: "BoiPotatMoldIInHd_Meas_0to9" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000907 ! Boiled potato cohesiveness (moldability)
+relationship: variable_of CO_330:0000941 ! texture by touch method
+relationship: variable_of CO_330:0000961 ! Cohesiveness/moldability scale 0-9
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000885
+name: Boiled potato cooked carrot aroma  scale 0-10
+synonym: "BoiPotatCarrArom_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000908 ! Boiled potato cooked carrot aroma
+relationship: variable_of CO_330:0000926 ! aroma method
+relationship: variable_of CO_330:0000943 ! Cooked carrot aroma scale  0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000886
+name: Boiled potato fracturability measurement scale 0-10
+synonym: "BoiPotatFract_Meas_0to9" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000909 ! Boiled potato fracturability in mouth
+relationship: variable_of CO_330:0000940 ! texture  fracturability in mouth method
+relationship: variable_of CO_330:0000960 ! Texture Fracturability in mouth scale 0-9
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000887
+name: Boiled potato green vegetable aroma measurement scale 0-10
+synonym: "BoiPotatVegArom_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000910 ! Boiled potato green vegetable aroma
+relationship: variable_of CO_330:0000926 ! aroma method
+relationship: variable_of CO_330:0000944 ! Green vegetable aroma scale  0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000888
+name: Boiled potato hardness in mouth scale measurement 0-10
+synonym: "BoiPotatHardMout_Meas_0to9" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000911 ! Boiled potato hardness in mouth
+relationship: variable_of CO_330:0000929 ! hardness texture in mouth method
+relationship: variable_of CO_330:0000949 ! Hardness in mouth scale 0-9
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000889
+name: Boiled potato homogeinity of colour measurement scale 0-10
+synonym: "BoiPotatColHom_Meas_0to9" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000912 ! Boiled potato homogeneity of surface color
+relationship: variable_of CO_330:0000930 ! homogeneity appearance method
+relationship: variable_of CO_330:0000950 ! Homogeinity of colour scale 0-9
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000890
+name: Boiled potato mealiness measurement scale 0-10
+synonym: "BoiPotatMealnMout_Meas_0to9" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000913 ! Boiled potato mealiness in mouth
+relationship: variable_of CO_330:0000931 ! mealiness texture in mouth method
+relationship: variable_of CO_330:0000951 ! Mealiness in mouth scale 0-9
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000891
+name: Boiled potato moisture in the mass measurement scale 0-10
+synonym: "BoiPotatMassMoistMout_Meas_0to9" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000914 ! Boiled potato moisture (in the mass)
+relationship: variable_of CO_330:0000932 ! moisture (in the mass) texture in mouth method
+relationship: variable_of CO_330:0000952 ! Moisture in the mass in mouth scale 0-9
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000892
+name: Boiled potato cooked potato odour measurement scale 0-10
+synonym: "BoiPotatOdPotat_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000915 ! Boiled potato cooked potato odour
+relationship: variable_of CO_330:0000934 ! odour method
+relationship: variable_of CO_330:0000954 ! Cooked potato odour scale 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000893
+name: Boiled potato boiled carrot odour measurement scale 0-10
+synonym: "BoiPotatOdCarr_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000916 ! Boiled potato boiled carrot odour
+relationship: variable_of CO_330:0000934 ! odour method
+relationship: variable_of CO_330:0000955 ! Odour scale 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000894
+name: Boiled potato green vegetable odour measurement scale 0-10
+synonym: "BoiPotatOdRtCr_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000917 ! Boiled potato green vegetable odour
+relationship: variable_of CO_330:0000934 ! odour method
+relationship: variable_of CO_330:0000955 ! Odour scale 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000895
+name: Boiled potato potato aroma measurement scale 0-10
+synonym: "BoiPotatPotatArom_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000918 ! Boiled potato cooked potato aroma
+relationship: variable_of CO_330:0000926 ! aroma method
+relationship: variable_of CO_330:0000945 ! Cooked Potato aroma scale 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000896
+name: Boiled potato root tuber aroma measurement scale 0-10
+synonym: "BoiPotatRtTubArom_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000919 ! Boiled potato root tuber aroma
+relationship: variable_of CO_330:0000926 ! aroma method
+relationship: variable_of CO_330:0000946 ! Root tuber aroma scale  0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000897
+name: Boiled potato root vegetable odour sclae 0-10
+synonym: "BoiPotatOdVegroot__Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000920 ! Boiled potato root vegetable odour
+relationship: variable_of CO_330:0000934 ! odour method
+relationship: variable_of CO_330:0000955 ! Odour scale 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000898
+name: Boiled potato smoothness measurement scale 0-10
+synonym: "BoiPotatSmoothMout_Meas_0to9" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000921 ! Boiled potato smoothness in mouth
+relationship: variable_of CO_330:0000935 ! smoothness texture in mouth method
+relationship: variable_of CO_330:0000956 ! Smoothness scale 0-9
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000899
+name: Boiled potato texture in mouth uniformity scale 0-&0
+synonym: "BoiPotatTextUnif_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000922 ! Boiled potato texture uniformity in mouth
+relationship: variable_of CO_330:0000942 ! texture uniformity in mouth method
+relationship: variable_of CO_330:0000962 ! Texture uniformity scale 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000900
+name: Boiled potato yellow colour measurement scale 0-10
+synonym: "BoiPotatYelCol_Meas_0to9" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000923 ! Boiled potato yellow colour
+relationship: variable_of CO_330:0000927 ! color appearance method
+relationship: variable_of CO_330:0000947 ! Yellow colour scale 0-9
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000901
+name: Boiled potato chalkiness of peeled surface colour Scale 0-10
+synonym: "BoiPotSurfChalk_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000924 ! Boiled potato chalkiness of peeled surface colour
+relationship: variable_of CO_330:0000937 ! surface chalkiness colour method
+relationship: variable_of CO_330:0000958 ! Surface chalkiness colour scale 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000902
+name: Boiled potato stickiness in hand ,scale 0-10
+synonym: "BoiPotStickInHd_Meas_0to10" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000925 ! Boiled potato stickiness in hand
+relationship: variable_of CO_330:0000936 ! stickiness method
+relationship: variable_of CO_330:0000957 ! Boiled potato stickiness scale 0-10
+created_by: Mariam Nakitto
+
+[Term]
+id: CO_330:0000903
+name: Boiled potato moisture release
+def: "Textural attribute related to release of moisture from a product when pressure is applied" []
+synonym: "BoiPotatRelMoistinHd" EXACT []
+is_a: CO_330:1000019 ! Texture in hand
+
+[Term]
+id: CO_330:0000904
+name: Boiled potato bitter aftertaste
+def: "Gustatory sensation that remains after swallowing product associated with the taste produced by dilute aqueous solutions of substances such as quinine" []
+synonym: "BoiPotatBittAftrTast" EXACT []
+is_a: CO_330:1000020 ! After taste
+
+[Term]
+id: CO_330:0000905
+name: Boiled potato crunchiness
+def: "Attribute of product to produce low pitched sound during rupturing" []
+synonym: "BoiPotatCrunchMout" EXACT []
+is_a: CO_330:1000021 ! Texture in mouth
+
+[Term]
+id: CO_330:0000906
+name: Boiled potato translucency
+def: "Attribute of object that allows light to pass through it but not images to be distinguished" []
+synonym: "BoiPotatSurfTransl" EXACT []
+is_a: CO_330:1000022 ! Appearance
+
+[Term]
+id: CO_330:0000907
+name: Boiled potato cohesiveness (moldability)
+def: "Textural attribute relating to degree to which a substance can be deformed before it breaks" []
+synonym: "BoiPotatMoldIInHd" EXACT []
+is_a: CO_330:1000019 ! Texture in hand
+
+[Term]
+id: CO_330:0000908
+name: Boiled potato cooked carrot aroma
+def: "Distinct aroma of cooked carrot" []
+synonym: "BoiPotatCarrArom" EXACT []
+is_a: CO_330:1000023 ! Aroma
+
+[Term]
+id: CO_330:0000909
+name: Boiled potato fracturability in mouth
+def: "Mechanical textural attribute related to the  force necessary to break into crumbs or pieces" []
+synonym: "BoiPotatFractMout" EXACT []
+is_a: CO_330:1000021 ! Texture in mouth
+
+[Term]
+id: CO_330:0000910
+name: Boiled potato green vegetable aroma
+def: "Distinct aroma of vegetables such as amaranth and beet root" []
+synonym: "BoiPotatVegArom" EXACT []
+is_a: CO_330:1000023 ! Aroma
+
+[Term]
+id: CO_330:0000911
+name: Boiled potato hardness in mouth
+def: "Mechanical textural attribute related to the  force necessary to achieve a certain deformation" []
+synonym: "BoiPotatHardMout" EXACT []
+is_a: CO_330:1000021 ! Texture in mouth
+
+[Term]
+id: CO_330:0000912
+name: Boiled potato homogeneity of surface color
+def: "Evenness of the distribution of the colour across entire sample surface" []
+synonym: "BoiPotatColHom" EXACT []
+is_a: CO_330:1000022 ! Appearance
+
+[Term]
+id: CO_330:0000913
+name: Boiled potato mealiness in mouth
+def: "An attribute associated with gumminess characterized by powdery mouthfeel" []
+synonym: "BoiPotatMealnMout" EXACT []
+is_a: CO_330:1000021 ! Texture in mouth
+
+[Term]
+id: CO_330:0000914
+name: Boiled potato moisture (in the mass)
+def: "Textural attribute which describes amount of water present in the sample mass" []
+synonym: "BoiPotatMassMoistMout" EXACT []
+is_a: CO_330:1000021 ! Texture in mouth
+
+[Term]
+id: CO_330:0000915
+name: Boiled potato cooked potato odour
+def: "Odour of cooked potato" []
+synonym: "BoiPotatOdPotat" EXACT []
+is_a: CO_330:1000024 ! Odour
+
+[Term]
+id: CO_330:0000916
+name: Boiled potato boiled carrot odour
+def: "Odour of boiled carrot" []
+synonym: "BoiPotatOdCarr" EXACT []
+is_a: CO_330:1000024 ! Odour
+
+[Term]
+id: CO_330:0000917
+name: Boiled potato green vegetable odour
+def: "Odour of cooked amaranth and beet root" []
+synonym: "BoiPotatOdRtCr" EXACT []
+is_a: CO_330:1000024 ! Odour
+
+[Term]
+id: CO_330:0000918
+name: Boiled potato cooked potato aroma
+def: "Distinct aroma of cooked potato" []
+synonym: "BoiPotatPotatArom" EXACT []
+is_a: CO_330:1000023 ! Aroma
+
+[Term]
+id: CO_330:0000919
+name: Boiled potato root tuber aroma
+def: "Distinct aroma of root drops such as cassava, sweet potato and climbing yam (balugu)" []
+synonym: "BoiPotatRtTubArom" EXACT []
+is_a: CO_330:1000023 ! Aroma
+
+[Term]
+id: CO_330:0000920
+name: Boiled potato root vegetable odour
+def: "Odor of root crops such as sweetpotato, cassava, and balugu (climbing yam)" []
+synonym: "BoiPotatOdVegroot" EXACT []
+is_a: CO_330:1000024 ! Odour
+
+[Term]
+id: CO_330:0000921
+name: Boiled potato smoothness in mouth
+def: "Geometrical attribute associated with the overall degree of absence of particles within sample" []
+synonym: "BoiPotatSmoothMout" EXACT []
+is_a: CO_330:1000021 ! Texture in mouth
+
+[Term]
+id: CO_330:0000922
+name: Boiled potato texture uniformity in mouth
+def: "Uniformity of the texture in mouth" []
+synonym: "BoiPotatTextUnif" EXACT []
+is_a: CO_330:1000021 ! Texture in mouth
+
+[Term]
+id: CO_330:0000923
+name: Boiled potato yellow colour
+def: "Description of predominant color of potato and its relative intensity" []
+synonym: "BoiPotatYelCol" EXACT []
+is_a: CO_330:1000022 ! Appearance
+
+[Term]
+id: CO_330:0000924
+name: Boiled potato chalkiness of peeled surface colour
+def: "Chalkiness of the peeled surface colour" []
+synonym: "BoiPotSurfChalk" EXACT []
+is_a: CO_330:1000022 ! Appearance
+
+[Term]
+id: CO_330:0000925
+name: Boiled potato stickiness in hand
+def: "Textural attribute relating to degree to which a substance can be adhere to surfaces of different material" []
+synonym: "BoiPotStickInHd" EXACT []
+is_a: CO_330:1000019 ! Texture in hand
+
+[Term]
+id: CO_330:0000926
+name: aroma method
+namespace: PotatoMethod
+def: "Take a small piece of sample, chew slowly and take a whiff to score the intensity of the aromas you observe" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000919 ! Boiled potato root tuber aroma
+
+[Term]
+id: CO_330:0000927
+name: color appearance method
+namespace: PotatoMethod
+def: "Open foil, visually assess potato surface and evaluate the yellow color intensity" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000923 ! Boiled potato yellow colour
+
+[Term]
+id: CO_330:0000928
+name: crunchiness texture in mouth method
+namespace: PotatoMethod
+def: "While you chew the sample observe the sound" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000905 ! Boiled potato crunchiness
+
+[Term]
+id: CO_330:0000929
+name: hardness texture in mouth method
+namespace: PotatoMethod
+def: "Place sample between molars and bite into it to access the amount of force required to bite into it" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000911 ! Boiled potato hardness in mouth
+
+[Term]
+id: CO_330:0000930
+name: homogeneity appearance method
+namespace: PotatoMethod
+def: "Open foil, visually assess potato surface and evaluate the homogeneity of colour" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000912 ! Boiled potato homogeneity of surface color
+
+[Term]
+id: CO_330:0000931
+name: mealiness texture in mouth method
+namespace: PotatoMethod
+def: "After chewing sample 3 times, feel the extent of the powdery mouthfeel" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000913 ! Boiled potato mealiness in mouth
+
+[Term]
+id: CO_330:0000932
+name: moisture (in the mass) texture in mouth method
+namespace: PotatoMethod
+def: "While you chew, observe the degree of moistness of the sample mass" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000914 ! Boiled potato moisture (in the mass)
+
+[Term]
+id: CO_330:0000933
+name: moisture release texture by mouth method
+namespace: PotatoMethod
+def: "While you chew, assess whether or not moisture is released from sample mass" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000903 ! Boiled potato moisture release
+
+[Term]
+id: CO_330:0000934
+name: odour method
+namespace: PotatoMethod
+def: "Open foil and take a whiff" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000920 ! Boiled potato root vegetable odour
+
+[Term]
+id: CO_330:0000935
+name: smoothness texture in mouth method
+namespace: PotatoMethod
+def: "After chewing feel sample between tongue and palate to assess the degree to which mass is free of grains" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000921 ! Boiled potato smoothness in mouth
+
+[Term]
+id: CO_330:0000936
+name: stickiness method
+namespace: PotatoMethod
+def: "Textural attribute relating to degree to which a substance can be adhere to surfaces of different material" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000925 ! Boiled potato stickiness in hand
+
+[Term]
+id: CO_330:0000937
+name: surface chalkiness colour method
+namespace: PotatoMethod
+def: "Observe the chalkiness colour of the peeled surface" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000924 ! Boiled potato chalkiness of peeled surface colour
+
+[Term]
+id: CO_330:0000938
+name: surface transparency method
+namespace: PotatoMethod
+def: "Open foil, visually assess potato surface and evaluate its translucency" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000906 ! Boiled potato translucency
+
+[Term]
+id: CO_330:0000939
+name: taste method
+namespace: PotatoMethod
+def: "Take a small piece of sample, chew slowly and swallow and assess whether there is a lingering bitter taste afterwards" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000904 ! Boiled potato bitter aftertaste
+
+[Term]
+id: CO_330:0000940
+name: texture  fracturability in mouth method
+namespace: PotatoMethod
+def: "Place sample between incisors and bite into it to assess the amount of force required to fracture the sample" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000909 ! Boiled potato fracturability in mouth
+
+[Term]
+id: CO_330:0000941
+name: texture by touch method
+namespace: PotatoMethod
+def: "Take a sizeable piece of sample and using all fingers attempt to make a ball with the sample" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000907 ! Boiled potato cohesiveness (moldability)
+
+[Term]
+id: CO_330:0000942
+name: texture uniformity in mouth method
+namespace: PotatoMethod
+def: "After chewing evaluate  the overall uniformity of the texture perceived in te sample" []
+is_a: CO_330:1000025 ! Sensory descriptive measurement
+relationship: method_of CO_330:0000922 ! Boiled potato texture uniformity in mouth
+
+[Term]
+id: CO_330:0000943
+name: Cooked carrot aroma scale  0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000926 ! aroma method
+
+[Term]
+id: CO_330:0000944
+name: Green vegetable aroma scale  0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000926 ! aroma method
+
+[Term]
+id: CO_330:0000945
+name: Cooked Potato aroma scale 0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000926 ! aroma method
+
+[Term]
+id: CO_330:0000946
+name: Root tuber aroma scale  0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000926 ! aroma method
+
+[Term]
+id: CO_330:0000947
+name: Yellow colour scale 0-9
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000927 ! color appearance method
+
+[Term]
+id: CO_330:0000948
+name: Crunchiness texture in mouth method sclae 0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000928 ! crunchiness texture in mouth method
+
+[Term]
+id: CO_330:0000949
+name: Hardness in mouth scale 0-9
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000929 ! hardness texture in mouth method
+
+[Term]
+id: CO_330:0000950
+name: Homogeinity of colour scale 0-9
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000930 ! homogeneity appearance method
+
+[Term]
+id: CO_330:0000951
+name: Mealiness in mouth scale 0-9
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000931 ! mealiness texture in mouth method
+
+[Term]
+id: CO_330:0000952
+name: Moisture in the mass in mouth scale 0-9
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000932 ! moisture (in the mass) texture in mouth method
+
+[Term]
+id: CO_330:0000953
+name: 2 pt scale
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000939 ! taste method
+
+[Term]
+id: CO_330:0000954
+name: Cooked potato odour scale 0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000934 ! odour method
+
+[Term]
+id: CO_330:0000955
+name: Odour scale 0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000934 ! odour method
+
+[Term]
+id: CO_330:0000956
+name: Smoothness scale 0-9
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000935 ! smoothness texture in mouth method
+
+[Term]
+id: CO_330:0000957
+name: Boiled potato stickiness scale 0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000936 ! stickiness method
+
+[Term]
+id: CO_330:0000958
+name: Surface chalkiness colour scale 0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000937 ! surface chalkiness colour method
+
+[Term]
+id: CO_330:0000959
+name: Surface translucy scale 0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000938 ! surface transparency method
+
+[Term]
+id: CO_330:0000960
+name: Texture Fracturability in mouth scale 0-9
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000940 ! texture  fracturability in mouth method
+
+[Term]
+id: CO_330:0000961
+name: Cohesiveness/moldability scale 0-9
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000941 ! texture by touch method
+
+[Term]
+id: CO_330:0000962
+name: Texture uniformity scale 0-10
+namespace: PotatoScale
+is_a: CO_330:1000018 ! Nominal
+relationship: scale_of CO_330:0000942 ! texture uniformity in mouth method
+
+[Term]
+id: CO_330:0000963
+name: CScab_Et_1to6
+synonym: "CS" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000967 ! Common scab resistance
+relationship: variable_of CO_330:0000971 ! common scab resistance standard area diagramme method
+relationship: variable_of CO_330:0000975 ! RCs 6pt scale
+
+[Term]
+id: CO_330:0000964
+name: Pscab_Et_0to4
+synonym: "PS" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000968 ! Powdery scab root resistance
+relationship: variable_of CO_330:0000972 ! powdery scab resistance galls visual scoring method
+relationship: variable_of CO_330:0000976 ! RPs 4pt scale
+
+[Term]
+id: CO_330:0000965
+name: Pscab_Et_1to6
+synonym: "Evaluation in Breeding Trials" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000969 ! Powdery scab tuber resistance
+relationship: variable_of CO_330:0000973 ! powdery scab resistance standard area diagramme method
+relationship: variable_of CO_330:0000977 ! RPs 6pt scale
+
+[Term]
+id: CO_330:0000966
+name: PCNres_Et_1to6
+synonym: "PCN" EXACT []
+is_a: CO_330:1000003 ! Variables
+relationship: variable_of CO_330:0000970 ! Potato cyst nematodes resistance
+relationship: variable_of CO_330:0000974 ! pcn resistance scoring method
+relationship: variable_of CO_330:0000978 ! RPs 6pt scale
+
+[Term]
+id: CO_330:0000967
+name: Common scab resistance
+def: "The tuber resistance to common scab" []
+synonym: "RCs" EXACT []
+is_a: CO_330:1000006 ! Biotic stress trait
+
+[Term]
+id: CO_330:0000968
+name: Powdery scab root resistance
+def: "Root resistance to powdery scab" []
+synonym: "RRPs" EXACT []
+is_a: CO_330:1000006 ! Biotic stress trait
+
+[Term]
+id: CO_330:0000969
+name: Powdery scab tuber resistance
+def: "The tuber resistance to powdery scab" []
+synonym: "TRPs" EXACT []
+is_a: CO_330:1000006 ! Biotic stress trait
+
+[Term]
+id: CO_330:0000970
+name: Potato cyst nematodes resistance
+def: "Resistance to the Potato cyst nematodes" []
+synonym: "PCNres" EXACT []
+is_a: CO_330:1000006 ! Biotic stress trait
+
+[Term]
+id: CO_330:0000971
+name: common scab resistance standard area diagramme method
+namespace: PotatoMethod
+def: "Observe the tuber resistance to common scab using standard area diagrams and rate it" []
+is_a: CO_330:1000014 ! Estimation
+relationship: method_of CO_330:0000967 ! Common scab resistance
+
+[Term]
+id: CO_330:0000972
+name: powdery scab resistance galls visual scoring method
+namespace: PotatoMethod
+def: "Observe the root resistance to powdery scab through visual scoring of root galls on potato roots" []
+is_a: CO_330:1000014 ! Estimation
+relationship: method_of CO_330:0000968 ! Powdery scab root resistance
+
+[Term]
+id: CO_330:0000973
+name: powdery scab resistance standard area diagramme method
+namespace: PotatoMethod
+def: "Observe the tuber resistance to powdery scab through visual scoring using standard area diagrams for area covered by pustules on tubers" []
+is_a: CO_330:1000014 ! Estimation
+relationship: method_of CO_330:0000969 ! Powdery scab tuber resistance
+
+[Term]
+id: CO_330:0000974
+name: pcn resistance scoring method
+namespace: PotatoMethod
+def: "Relative Susceptibility (%) =  (number of eggs and larvae on the roots of the tested cultivar/number of eggs and larvae on the roots of the control susceptible cultivar)× 100" []
+is_a: CO_330:1000014 ! Estimation
+relationship: method_of CO_330:0000970 ! Potato cyst nematodes resistance
+
+[Term]
+id: CO_330:0000975
+name: RCs 6pt scale
+namespace: PotatoScale
+is_a: CO_330:1000017 ! Ordinal
+relationship: scale_of CO_330:0000971 ! common scab resistance standard area diagramme method
+
+[Term]
+id: CO_330:0000976
+name: RPs 4pt scale
+namespace: PotatoScale
+is_a: CO_330:1000017 ! Ordinal
+relationship: scale_of CO_330:0000972 ! powdery scab resistance galls visual scoring method
+
+[Term]
+id: CO_330:0000977
+name: RPs 6pt scale
+namespace: PotatoScale
+is_a: CO_330:1000017 ! Ordinal
+relationship: scale_of CO_330:0000973 ! powdery scab resistance standard area diagramme method
+
+[Term]
+id: CO_330:0000978
+name: RPs 6pt scale
+namespace: PotatoScale
+is_a: CO_330:1000017 ! Ordinal
+relationship: scale_of CO_330:0000974 ! pcn resistance scoring method
+
+[Term]
 id: CO_330:1000000
 name: CGIAR Potato trait ontology
 namespace: PotatoTrait
@@ -7496,7 +8382,6 @@ namespace: PotatoScale
 [Term]
 id: CO_330:1000003
 name: Variables
-is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 
 [Term]
 id: CO_330:1000004

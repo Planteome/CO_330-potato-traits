@@ -7500,7 +7500,7 @@ is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 
 [Term]
 id: CO_330:1000004
-name: ABiotic stress trait
+name: Abiotic stress trait
 namespace: PotatoTrait
 is_a: CO_330:1000000 ! CGIAR Potato trait ontology
 
@@ -7623,6 +7623,12 @@ id: CO_330:1000024
 name: Odour
 namespace: PotatoTrait
 is_a: CO_330:1000007 ! Quality trait
+
+[Term]
+id: CO_330:1000025
+name: Sensory descriptive measurement
+namespace: PotatoMethod
+is_a: CO_330:1000001 ! Methods
 
 [Typedef]
 id: method_of

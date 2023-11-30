@@ -1369,7 +1369,7 @@ relationship: method_of CO_330:0000413 ! tuber anthocyanin concentration in dry 
 id: CO_330:0000210
 name: potato tuber hydrophilic antioxidant activity in dry weight basis trait
 def: "The hydrophilic antioxidant activity in dry weight basis" [CO:curators]
-is_a: TO:0000281
+is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
 id: CO_330:0000211
@@ -1390,7 +1390,7 @@ relationship: scale_of CO_330:0000424 ! extraction methods - lipophilic antioxid
 id: CO_330:0000213
 name: potato tuber lipophilic antioxidant activity in dry weight basis trait
 def: "The lipophilic antioxidant activity in dry weight basis" [CO:curators]
-is_a: TO:0000281
+is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
 id: CO_330:0000214
@@ -2999,7 +2999,7 @@ is_a: CO_330:0000210 ! tuber hydrophilic antioxidant activity in dry weight basi
 id: CO_330:0000419
 name: potato tuber hydrophilic antioxidant activity in fresh weight basis trait
 def: "The hydrophilic antioxidant activity in fresh weight basis" [CO:curators]
-is_a: TO:0000281
+is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
 id: CO_330:0000420
@@ -3030,7 +3030,7 @@ is_a: CO_330:0000213 ! tuber lipophilic antioxidant activity in dry weight basis
 id: CO_330:0000423
 name: potato tuber lipophilic antioxidant activity in fresh weight basis trait
 def: "The lipophilic antioxidant activity in fresh weight basis" [CO:curators]
-is_a: TO:0000281
+is_a: TO:0001143 ! antioxidant activity trait
 
 [Term]
 id: CO_330:0000424

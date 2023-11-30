@@ -8,7 +8,7 @@ id: CO_330:0000000
 name: potato plant growth habit trait
 def: "The growth habit of the plant" [CO:curators]
 synonym: "PlGwht" EXACT []
-is_a: TO:0002756
+is_a: TO:0002756 ! plant growth habit
 
 [Term]
 id: CO_330:0000001
@@ -28,7 +28,7 @@ id: CO_330:0000003
 name: potato flowering degree trait
 def: "The degree of flowering" [CO:curators]
 synonym: "Flwdgr" EXACT []
-is_a: TO:0000622
+is_a: TO:0000622 ! flower development trait
 
 [Term]
 id: CO_330:0000004
@@ -842,7 +842,7 @@ id: CO_330:0000123
 name: potato late blight resistance trait
 def: "The plant resistance to late blight" [CO:curators]
 synonym: "RLb" EXACT []
-is_a: TO:0000664
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_330:0000124
@@ -2518,7 +2518,7 @@ id: CO_330:0000357
 name: potato late blight severity trait
 def: "The severity of late blight disease on foliage caused by Phytophthora infestans" [CO:curators]
 synonym: "PFolLB" EXACT []
-is_a: TO:0000664
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_330:0000358
@@ -2541,7 +2541,7 @@ id: CO_330:0000360
 name: potato late blight audpc trait
 def: "The area under the disease progress curve for late blight" [CO:curators]
 synonym: "LBR_AUDPC" EXACT []
-is_a: TO:0000664
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_330:0000361
@@ -2573,7 +2573,7 @@ id: CO_330:0000364
 name: potato late blight relative audpc trait
 def: "The relative area under the disease progress curve for late blight" [CO:curators]
 synonym: "LBR_rAUDPC" EXACT []
-is_a: TO:0000664
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_330:0000365
@@ -2596,7 +2596,7 @@ id: CO_330:0000368
 name: potato late blight susceptibility trait
 def: "The plant susceptibility to late blight disease" [CO:curators]
 synonym: "LBR_sAUDPC" EXACT []
-is_a: TO:0000664
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_330:0000369

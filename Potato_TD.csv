@@ -25,11 +25,11 @@ CO_330:0000245,BShTLf_Et_1to7,BSHTL,Characterizing stocks,,Recommended,,CIP,Cura
 CO_330:0000246,AShTLf_Et_1to9,ASHTL,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
 CO_330:0000247,MStPg_Et_1to7,STMPG,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
 CO_330:0000248,StWgSh_Et_0to3,STMWNG,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
-CO_330:0000249,PSknCol_Et_1to9,TBSKN1,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
+CO_330:0000249,PSknCol_Et_1to9,TBSKN1,Characterizing stocks,Postharvest,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
 CO_330:0000250,SknCPI_Et_1to3,TBSKN2,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
 CO_330:0000251,SknCSc_Et_0to9,TBSKN3,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
 CO_330:0000252,SknCScD_Et_0to7,TBSKN4,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
-CO_330:0000253,PFlshCol_Et_1to8,TBFSH1,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
+CO_330:0000253,PFlshCol_Et_1to8,TBFSH1,Characterizing stocks,Postharvest,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
 CO_330:0000254,FlsCSc_Et_0to8,TBFSH2,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
 CO_330:0000255,FlsCSD_Et_0to7,TBFSH3,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
 CO_330:0000256,RtShp_Et_1to8,TBSHP1,Characterizing stocks,,Recommended,,CIP,Curator,2016-04-04 00:00:00,EN,Potato
@@ -84,15 +84,15 @@ CO_330:0000380,Textac_Et_1to5,TEXTAC,Evaluation in Breeding Trials,Postharvest,R
 CO_330:0000381,Cookqu_Et_1to7,COOKQU,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2016-04-04 00:00:00,EN,Potato
 CO_330:0000382,Afcdar_Et_1to4,AFCDAR,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2016-04-04 00:00:00,EN,Potato
 CO_330:0000383,Flcac_Et_1to8,FLCAC,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2016-04-04 00:00:00,EN,Potato
-CO_330:0000384,Chipping_Et_1to5,CHIPPING,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2016-04-04 00:00:00,EN,Potato
+CO_330:0000384,Chipping_Et_1to5,CHIP_COLOR,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2016-04-04 00:00:00,EN,Potato
 CO_330:0000388,Ffr_Et_1to5,FFR,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-05-04 00:00:00,EN,Potato
 CO_330:0000389,Cootime_Et_1to5,COOTIME,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2016-04-04 00:00:00,EN,Potato
 CO_330:0000390,Tdm_Cp,"PDM, DM",Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-05-04 00:00:00,EN,Potato
 CO_330:0000394,Sg_Cp,SG,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-05-04 00:00:00,EN,Potato
 CO_330:0000395,Aocp_Cp,AOCP,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-05-04 00:00:00,EN,Potato
 CO_330:0000396,GGroperl_Et_1to3,GROPER,Evaluation in Breeding Trials,,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
-CO_330:0000397,DoPeriod_Ms,DORPD,Evaluation in Breeding Trials,,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
-CO_330:0000398,Sppt_1to3,SPPATT,Evaluation in Breeding Trials,,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
+CO_330:0000397,DoPeriod_Ms,DORPD,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
+CO_330:0000398,Sppt_1to3,SPPATT,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000399,Reht_Et_1to4,HEAT,Evaluation in Breeding Trials,,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000400,ReSl_Et_1to4,SAL,Evaluation in Breeding Trials,,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000401,PollV_Et_1to7,POLLENV,Evaluation in Breeding Trials,,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
@@ -108,12 +108,12 @@ CO_330:0000418,Aah_Ms_ugTrolox_DW,AAH_DW,Evaluation in Breeding Trials,Postharve
 CO_330:0000421,Aah_Ms_ugTrolox_FW,AAH_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000422,Aal_Ms_ugTrolox_DW,AAL_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000425,Aal_Ms_ugTrolox_FW,AAL_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
-CO_330:0000426,Ascdw_Ms_mg100_DW,ASC_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
-CO_330:0000429,Ascfw_Cp_mg100_FW,ASC_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
+CO_330:0000426,Ascdw_Cp_mg100_DW,ASC_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
+CO_330:0000429,Ascfw_Ms_mg100_FW,ASC_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000432,TubFlsPrt_Ms_pct,"PRO, PROTEIN",Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000435,TubFlsSta_Ms_pct,STAR,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000438,TubFlsFru_Ms_pct,FRUC,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
-CO_330:0000441,TubFlsGlu_Ms_pct,GLUC,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
+CO_330:0000441,TubFlsGlu_Ms_mgdl,GLUC,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000444,TubFlsSuc_Ms_pct,SUCR,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000447,TubFlsMal_Ms_pct,MALT,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
 CO_330:0000450,TubFlsFf_Ms_pct,FIBER,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2017-11-09 00:00:00,EN,Potato
@@ -135,7 +135,7 @@ CO_330:0000634,TbMkquHv_obs_1-10,,Evaluation in Breeding Trials,Harvest,Recommen
 CO_330:0000635,TbMkquSt_obs_1-7,,Evaluation in Breeding Trials,Harvest,Recommended,De Haan et al. 2017,CIP,Breeder,2018-10-10 00:00:00,EN,Potato
 CO_330:0000636,MprFlw_Ct_plot,"MSM, BSM",Evaluation in Breeding Trials,Flowering stage,Recommended,De Haan et al. 2017,CIP,Breeder,2018-10-10 00:00:00,EN,Potato
 CO_330:0000637,WprFlw_Ct_plot,"MSWM, BSWN",Evaluation in Breeding Trials,Flowering stage,Recommended,De Haan et al. 2017,CIP,Breeder,2018-10-10 00:00:00,EN,Potato
-CO_330:0000638,MprHar_Ct_plot,"MSM, BSM",Evaluation in Breeding Trials,Havest stage,Recommended,De Haan et al. 2017,CIP,Breeder,2018-10-10 00:00:00,EN,Potato
+CO_330:0000638,MprHar_Ct_plot,"MSM, BSM",Evaluation in Breeding Trials,Harvest stage,Recommended,De Haan et al. 2017,CIP,Breeder,2018-10-10 00:00:00,EN,Potato
 CO_330:0000639,WprHar_Ct_plot,"MSWM, BSWN",Evaluation in Breeding Trials,Havest stage,Recommended,De Haan et al. 2017,CIP,Breeder,2018-10-10 00:00:00,EN,Potato
 CO_330:0000640,MprPHar_Ct_plot,SCORE_MEN,Evaluation in Breeding Trials,Post-harvest stage,Recommended,De Haan et al. 2017,CIP,Breeder,2018-10-10 00:00:00,EN,Potato
 CO_330:0000641,WprPHar_Ct_plot,SCORE_WOMEN,Evaluation in Breeding Trials,Post-harvest stage,Recommended,De Haan et al. 2017,CIP,Breeder,2018-10-10 00:00:00,EN,Potato
@@ -218,9 +218,9 @@ CO_330:0000769,SI_Cp,SI,,Postharvest,Recommended,"Cabello, R. et al. 2020",CIP,"
 CO_330:0000773,PW_Et_1to9,PW_EV,,vegetative period,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
 CO_330:0000776,DSI_Cp,DSI,,Postharvest,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
 CO_330:0000779,DTI_Cp_,DTI,,Postharvest,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
-CO_330:0000781,Sg_Ms_Hyd,SG,,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
+CO_330:0000781,Sg_Ms_Hyd,SG,Evaluation in Breeding Trials,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
 CO_330:0000784,WUE_Cp,WUE,,Postharvest,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
-CO_330:0000786,DkAfBl_Et_1to5,DAR,,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
+CO_330:0000786,DkAfBl_Et_1to5,DAR,Evaluation in Breeding Trials,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
 CO_330:0000790,FfrExApp_Et_1to5,FFREXAPP,,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
 CO_330:0000792,FfrExC_Et_1to5,FFREXC,,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
 CO_330:0000795,FfrInC_Et_1to5,FFRINC,,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
@@ -248,18 +248,18 @@ CO_330:0000841,GMPrPlant_Cp_kg,GMP,,Postharvest,Recommended,"Cabello, R. et al. 
 CO_330:0000843,GMTTWT_Cp_kg,GMTTWT,,Postharvest,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
 CO_330:0000847,SD_Ms_cm,SD_EV,,vegetative period,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
 CO_330:0000851,SNPP_Ct_plant,SNPP,,vegetative period,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
-CO_330:0000853,TbFlafbl_Et_1to7,FLABOIL,,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
-CO_330:0000855,TbStFlafbl_Et_1to5,STFLA,,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
-CO_330:0000858,TubFlsGlu_Cp_mgdl,AGLU,,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
+CO_330:0000853,TbFlafbl_Et_1to7,FLABOIL,Evaluation in Breeding Trials,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
+CO_330:0000855,TbStFlafbl_Et_1to5,STFLA,Evaluation in Breeding Trials,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
+CO_330:0000858,TubFlsGlu_Ms_mgdl,AGLU,Evaluation in Breeding Trials,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
 CO_330:0000860,CR_GS_Ms_NDVI,CR_EV,,vegetative period,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
-CO_330:0000862,Textabl_Et_1to6,TEXTABL,,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
+CO_330:0000862,Textabl_Et_1to6,TEXTABL,Evaluation in Breeding Trials,Postharvest,Recommended,"Salas, E. et al.2019",CIP,Breeders,20-mars-20,EN,Potato
 CO_330:0000864,CR_TC_Ms_NDVI,,,vegetative period,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
 CO_330:0000866,CR_AV_Ms_NDVI,,,vegetative period,Recommended,"Cabello, R. et al. 2020",CIP,"Cabello, R.",2019-09-10 00:00:00,EN,Potato
-CO_330:0000868,TbQua_Tri_1to3,,Citizen science,Postharvest,Recommended,,CLIMMOB,Jacob Van Etten,1-dec-2021,EN,Potato
-CO_330:0000872,PlPtIn_tri_1to3,,Citizen science,,Recommended,,CLIMMOB,Jacob Van Etten,1-dec-2021,EN,Potato
-CO_330:0000874,MatTm_Tri_1to3,,Citizen science,,Recommended,,CLIMMOB,Jacob Van Etten,1-dec-2021,EN,Potato
-CO_330:0000876,TbMkquH_Tri_1to3,,Citizen science,Postharvest,Recommended,,CLIMMOB,Jacob Van Etten,1-dec-2021,EN,Potato
-CO_330:0000878,TbMkquS_Tri_1to3,,Citizen science,Postharvest,Recommended,,CLIMMOB,Jacob Van Etten,1-dec-2021,EN,Potato
+CO_330:0000868,TbOvQua_CompRank_Rk3,,Technology comparison studies by users,Postharvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",CLIMMOB,ClimMob,,EN,Potato
+CO_330:0000872,PlPtIn_CompRank_Rk3,,Technology comparison studies by users,,Recommended,,CLIMMOB,Jacob Van Etten,1-dec-2021,EN,Potato
+CO_330:0000874,MatTm_CompRank_Rk3,,Technology comparison studies by users,Harvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",CLIMMOB,,1-dec-2021,EN,Potato
+CO_330:0000876,TbMkquH_CompRank_Rk3,,Technology comparison studies by users,Postharvest after 50 days,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",CLIMMOB,,1-dec-2021,EN,Potato
+CO_330:0000878,TbMkquS_CompRank_Rk3,,Technology comparison studies by users,Postharvest after 120-150 days,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",CLIMMOB,,1-dec-2021,EN,Potato
 CO_330:0000880,Boiled potato moisture release measurement 2 pt scale,BoiPotatRelMoistinHd_Meas_2pt,Trained sensory panel,,Recommended,https://agritrop.cirad.fr/602591/,"CIP, CIRAD",Mariam Nakitto,2020-01-29 00:00:00,EN,Potato
 CO_330:0000881,Boiled potato bitter aftertaste measurement 2 pt scale,BoiPotatBittAftrTast_2pt,Trained sensory panel,,Recommended,https://agritrop.cirad.fr/602591/,"CIP, CIRAD",Mariam Nakitto,2020-01-29 00:00:00,EN,Potato
 CO_330:0000882,Boiled potato crunchiness measurement 0-10 scale,BoiPotatCrunchMout_0to10,Trained sensory panel,,Recommended,https://agritrop.cirad.fr/602591/,"CIP, CIRAD",Mariam Nakitto,2020-01-29 00:00:00,EN,Potato
@@ -283,3 +283,20 @@ CO_330:0000899,Boiled potato texture in mouth uniformity scale 0-&0,BoiPotatText
 CO_330:0000900,Boiled potato yellow colour measurement scale 0-10,BoiPotatYelCol_Meas_0to9,Trained sensory panel,,Recommended,https://agritrop.cirad.fr/602591/,"CIP, CIRAD",Mariam Nakitto,2020-01-29 00:00:00,EN,Potato
 CO_330:0000901,Boiled potato chalkiness of peeled surface colour Scale 0-10,BoiPotSurfChalk_Meas_0to10,Trained sensory panel,,Recommended,https://agritrop.cirad.fr/602591/,"CIP, CIRAD",Mariam Nakitto,2020-01-29 00:00:00,EN,Potato
 CO_330:0000902,"Boiled potato stickiness in hand ,scale 0-10",BoiPotStickInHd_Meas_0to10,Trained sensory panel,,Recommended,https://agritrop.cirad.fr/602591/,"CIP, CIRAD",Mariam Nakitto,2020-01-29 00:00:00,EN,Potato
+CO_330:0000995,TubApp_CompRank_rk3,,Technology comparison studies by users,Harvest,Recommended,,ClimMob,,,EN,Potato
+CO_330:0000996,DoPeriod_CompRank_Rk3,DORPD,Technology comparison studies by users,,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",ClimMob,,,EN,Potato
+CO_330:0000997,RtShp_CompRank_Rk3,Tuber shape assessed by comparatively ranking 3 varieties (1=highest ranking;2=middle ranking;3=lowest ranking),Technology comparison studies by users,Postharvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,,,EN,Potato
+CO_330:0000998,_CompRank_Rk3,Tub_Size,Technology comparison studies by users,Harvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0000999,SprtTm_CompRank_Rk3,,Technology comparison studies by users,Establishement,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001001,Sprtrt_CompRank_Rk3,,Technology comparison studies by users,Establishement,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001003,AbStrtol_CompRank_Rk3,,Technology comparison studies by users,Maturity,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001005,DisStrTol_CompRank_Rk3,,Technology comparison studies by users,Maturity,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001007,PstStrTol_CompRank_Rk3,,Technology comparison studies by users,Maturity,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001009,plEasHarv_CompRank_Rk3,,Technology comparison studies by users,Harvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001011,Tbszmkt_CompRank_Rk3,,Technology comparison studies by users,Postharvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001013,Storprbtol_CompRank_RK3,,Technology comparison studies by users,Postharvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001015,Storabty_CompRank_RK3,,Technology comparison studies by users,Postharvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001017,OvPerf_CompRank_RK3,,Technology comparison studies by users,Harvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001019,OvPerfLocal_CompRank_RK3,,Technology comparison studies by users,Harvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001021,YldQual_CompRank_RK3,,Technology comparison studies by users,Harvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001023,CkTbTst_CompRank_RK3,,Technology comparison studies by users,Processing,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato

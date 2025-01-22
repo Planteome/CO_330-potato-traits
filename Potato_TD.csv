@@ -300,3 +300,84 @@ CO_330:0001017,OvPerf_CompRank_RK3,,Technology comparison studies by users,Harve
 CO_330:0001019,OvPerfLocal_CompRank_RK3,,Technology comparison studies by users,Harvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
 CO_330:0001021,YldQual_CompRank_RK3,,Technology comparison studies by users,Harvest,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
 CO_330:0001023,CkTbTst_CompRank_RK3,,Technology comparison studies by users,Processing,Recommended,"Tricot Potato protocol 1000 Farms, 25-07-2023",,ClimMob,,EN,Potato
+CO_330:0001025,Tubchain_Cp_per,"TUBCHAIN, CHAIN",Evaluation in Breeding Trials,Harvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001026,Nsp_Ct_tuber,NSP,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001027,Finaltw_Ms_gr,FINAL_TW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001028,GC_Cp_per,GC,Evaluation in Breeding Trials,Harvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001029,Initialtw_Ms_gr,INITIAL_TW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001030,Paglu_Cp_per,PAGLU,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001031,Scgrw_Cp_per,SCGRW,Evaluation in Breeding Trials,Harvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001032,Al_Ms_mgkg_DW,AlDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001033,Al_Cp_mg100g_FW,AlFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001034,As _Ms_mgkg_DW,AsDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001035,As_Cp_mg100g_FW,AsFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001036,Ba_Ms_mgkg_DW,BaDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001037,Ba_Cp_mg100g_FW,BaFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001038,Be _Ms_mgkg_DW,BeDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001039,Be_Cp_mg100g_FW,BeFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001040,B _Ms_mgkg_DW,BDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001041,B_Cp_mg100g_FW,BFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001042,Cd_Ms_mgkg_DW,CdDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001043,Cd_Cp_mg100g_FW,CdFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001044,Cs_Ms_mgkg_DW,CsDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001045,Cs_Cp_mg100g_FW,CsFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001046,Cr _Ms_mgkg_DW,CrDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001047,Cr_Cp_mg100g_FW,CrFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-12 00:00:00,EN,Potato
+CO_330:0001048,Co _Ms_mgkg_DW,CoDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001049,Co_Cp_mg100g_FW,CoFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001050,Cu _Ms_mgkg_DW,CuDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001051,Cu_Cp_mg100g_FW,CuFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001052,Pb_Ms_mgkg_DW,PbDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001053,Pb_Cp_mg100g_FW,PbFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001054,Li _Ms_mgkg_DW,LiDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001055,Li_Cp_mg100g_FW,LiFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001056,Mn _Ms_mgkg_DW,MnDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001057,Mn_Cp_mg100g_FW,MnFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001058,Mo_Ms_mgkg_DW,MoDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001059,Mo_Cp_mg100g_FW,MoFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001060,Ni _Ms_mgkg_DW,NiDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001061,Ni_Cp_mg100g_FW,NiFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001062,Rb _Ms_mgkg_DW,RbDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001063,Rb_Cp_mg100g_FW,RbFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001064,Se _Ms_mgkg_DW,SeDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001065,Se_Cp_mg100g_FW,SeFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001066,Ag_Ms_mgkg_DW,AgDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001067,Ag_Cp_mg100g_FW,AgFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001068,Na _Ms_mgkg_DW,NaDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001069,Na_Cp_mg100g_FW,NaFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001070,Sr _Ms_mgkg_DW,SrDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001071,Sr_Cp_mg100g_FW,SrFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001072,Tl_Ms_mgkg_DW,TlDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001073,Tl_Cp_mg100g_FW,TlFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001074,Ti _Ms_mgkg_DW,TiDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001075,Ti_Cp_mg100g_FW,TiFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001076,U_Ms_mgkg_DW,UDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001077,U_Cp_mg100g_FW,UFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001078,V _Ms_mgkg_DW,VDW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001079,V_Cp_mg100g_FW,VFW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001080,Htspr_Cp_per,"HTSPR, SPROUTING",Evaluation in Breeding Trials,Harvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001081,Tdm_Fdm_Cp_per,"PDM, DM",Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001082,Cqa_Uplc_mg100g_DW,cryptochlorogenic acid_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001083,Cqa_Cp_mg100g_FW,cryptochlorogenic acid_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001084,Ec_Uplc_mg100g_DW,epicatechin_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001085,Ec_Cp_mg100g_FW,epicatechin_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001086,Fa_Uplc_mg100g_DW,ferulic acid_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001087,Fa_Cp_mg100g_FW,ferulic acid_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001088,Ga_Uplc_mg100g_DW,gallic acid_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001089,Ga_Cp_mg100g_FW,gallic acid_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001090,Ncga_Uplc_mg100g_DW,neochlorogenic acid_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001091,Nga_Cp_mg100g_FW,neochlorogenic acid_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001092,Pcma_Uplc_mg100g_DW,p-coumaric acid_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001093,Pcma_Cp_mg100g_FW,p-coumaric acid_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001094,Pca_Uplc_mg100g_DW,protocatechuic acid_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001095,Pca_Cp_mg100g_FW,protocatechuic acid_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001096,Ru_Uplc_mg100g_DW,rutin_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001097,Ru_Cp_mg100g_FW,rutin_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001098,Sa_Uplc_mg100g_DW,syringic acid_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001099,Sa_Cp_mg100g_FW,syringic acid_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001100,Tca_Uplc_mg100g_DW,t-cinnamic acid_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001101,Tca_Cp_mg100g_FW,t-cinnamic acid_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001102,Va_Uplc_mg100g_DW,vanillic acid_DW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001103,Va_Cp_mg100g_FW,vanillic acid_FW,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001104,Pltyp_Et_1to4,PlTyp,Evaluation in Breeding Trials,vegetative period,Recommended,"Santayana, M. et al, 2021",CIP,Breeders,2024-09-11 00:00:00,EN,Potato
+CO_330:0001105,Pwspt_Cp_per,PW_SPT,Evaluation in Breeding Trials,Postharvest,Recommended,,CIP,Breeders,2024-09-11 00:00:00,EN,Potato
